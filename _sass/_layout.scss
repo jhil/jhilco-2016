@@ -1,0 +1,57 @@
+// HEADER
+
+.site-header {
+}
+
+.site-title {
+}
+
+
+// FOOTER
+
+.site-footer {
+}
+
+.footer-heading {
+}
+
+
+// CONTENT
+
+.page-content {
+}
+
+.page-heading {
+}
+
+.post-img-thumbnail {
+    background: $scratch-color;
+    width: 100%;
+    height: 20rem;
+}
+
+.post-meta {
+    font-size: $small-font-size;
+}
+
+.post-link {
+    display: block;
+}
+
+
+// POSTS
+
+.post-header {
+    margin-bottom: $spacing-unit;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+}
