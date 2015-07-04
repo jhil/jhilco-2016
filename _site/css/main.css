@@ -100,10 +100,12 @@ header {
   margin: 0 auto 1rem; }
 
 .site-footer {
-  text-align: center; }
+  text-align: center;
+  padding: 4rem 1rem; }
 
 .post-item {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 1rem; }
 
 .post-link {
   display: block; }
@@ -1857,7 +1859,8 @@ header {
     clear: both;
     width: 100%; } }
 .post-item {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 1rem; }
 
 .post-link {
   display: block; }
