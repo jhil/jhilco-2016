@@ -81,22 +81,26 @@ article {
   text-align: center;
   padding: 4rem 1rem;
   transition: all .2s;
+  h2:after, h2:before {
+    font-family: $base-font-family;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: margin .6s ease;
+  }
   &:hover {
     background: $grey;
     color: white;
   }
 }
 
-.other-title {
-  margin: 0;
-}
+// .other-title {
+//   margin: 0;
+// }
 
 .other-left {
   h2:before {
     content: "‹";
-    @extend p;
-    margin-right: 1rem;
-    transition: margin .15s;
   }
   &:hover {
     h2:before {
@@ -108,9 +112,6 @@ article {
 .other-right {
   h2:after {
     content: "›";
-    @extend p;
-    margin-left: 1rem;
-    transition: margin .15s;
   }
   &:hover {
     h2:after {
