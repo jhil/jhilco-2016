@@ -48,20 +48,30 @@
 
 // POST ARTICLE
 
+article {
+  
+  img {
+    width: 100%;
+  }
+
+}
+
 .article-row {
   @extend %clearfix;
 }
 
+.article-left {
+  @extend .grid-50;
+  padding: 0 !important;
+}
+
+.article-right {
+  @extend .grid-50;
+  padding: 0 !important;
+}
+
 .article-text {
-  padding: 4rem;
-}
-
-.article-left-square {
-  @extend .grid-50;
-}
-
-.article-right-square {
-  @extend .grid-50;
+  padding: 4rem !important;
 }
 
 

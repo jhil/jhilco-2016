@@ -1,10 +1,14 @@
 # Site settings
+
 title: "Jeff Hilnbrand"
 email: jahilnbrand@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Some description goes here.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site
+permalink: /:title # example: http://jhil.co/bitcamp
+timezone: America/New_York
 
 twitter_username:   jhilmd
 facebook_username:  jhilnbrand
@@ -12,6 +16,8 @@ github_username:    jhil
 dribbble_username:  jhil
 linkedin_username:  jhilnbrand
 medium_username:    jhilmd
+behance_username:   jhil
+
 
 # Build settings
 markdown: kramdown
