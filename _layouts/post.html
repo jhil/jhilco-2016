@@ -5,12 +5,14 @@ layout: default
 
   <header class="post-header">
     <div class="wrapper">
+      <h1 class="post-title">{{ page.title }}</h1>
       <div class="post-header-row">
-        <div class="post-avatar"></div>
-        <h1 class="post-title">{{ page.title }}</h1>
+        <a href="{{ site.baseurl }}/">
+          <p class="post-name small">{{ site.title }}</p>
+        </a>
+        <p class="post-type small">{{ page.type }}</p>
         <p class="post-date small">{{ page.date }}</p>
       </div>
-      <p class="post-type small">{{ page.type }}</p>
     </div>
   </header>
 

@@ -3,6 +3,7 @@
 .site-footer {
   text-align: center;
   padding: 4rem 1rem;
+  @extend .wrapper;
 }
 
 .footer-copy {
