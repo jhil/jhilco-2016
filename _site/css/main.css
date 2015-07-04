@@ -1,16 +1,39 @@
+body {
+  font-family: "Manifold CF", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222222;
+  -webkit-text-size-adjust: 100%; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: "Argent CF", "Georgia", serif;
+  font-weight: 700; }
+
+h1, .h1 {
+  font-size: 6rem; }
+
+h2, .h2 {
+  font-size: 4rem; }
+
+h3, .h3 {
+  font-size: 2rem; }
+
+p {
+  font-weight: 400;
+  font-size: 2rem; }
+
+.small {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: .875rem; }
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  color: #666666;
-  -webkit-text-size-adjust: 100%; }
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
@@ -22,12 +45,12 @@ img {
   vertical-align: middle; }
 
 a {
-  color: #a252cc;
+  color: #484848;
   text-decoration: none; }
   a:visited {
-    color: #7b30a2; }
+    color: #222222; }
   a:hover {
-    color: #666666;
+    color: #222222;
     text-decoration: underline; }
 
 .wrapper:after, .grid-container:after, .grid-5:after, .mobile-grid-5:after, .tablet-grid-5:after, .grid-10:after, .mobile-grid-10:after, .tablet-grid-10:after, .grid-15:after, .mobile-grid-15:after, .tablet-grid-15:after, .grid-20:after, .mobile-grid-20:after, .tablet-grid-20:after, .grid-25:after, .mobile-grid-25:after, .tablet-grid-25:after, .grid-30:after, .mobile-grid-30:after, .tablet-grid-30:after, .grid-35:after, .mobile-grid-35:after, .tablet-grid-35:after, .grid-40:after, .mobile-grid-40:after, .tablet-grid-40:after, .grid-45:after, .mobile-grid-45:after, .tablet-grid-45:after, .grid-50:after, .mobile-grid-50:after, .tablet-grid-50:after, .grid-55:after, .mobile-grid-55:after, .tablet-grid-55:after, .grid-60:after, .mobile-grid-60:after, .tablet-grid-60:after, .grid-65:after, .mobile-grid-65:after, .tablet-grid-65:after, .grid-70:after, .mobile-grid-70:after, .tablet-grid-70:after, .grid-75:after, .mobile-grid-75:after, .tablet-grid-75:after, .grid-80:after, .mobile-grid-80:after, .tablet-grid-80:after, .grid-85:after, .mobile-grid-85:after, .tablet-grid-85:after, .grid-90:after, .mobile-grid-90:after, .tablet-grid-90:after, .grid-95:after, .mobile-grid-95:after, .tablet-grid-95:after, .grid-100:after, .mobile-grid-100:after, .tablet-grid-100:after, .grid-33:after, .mobile-grid-33:after, .tablet-grid-33:after, .grid-66:after, .mobile-grid-66:after, .tablet-grid-66:after, .clearfix:after {
@@ -49,6 +72,9 @@ header {
   border-radius: 50%;
   margin: 0 auto; }
 
+.site-footer {
+  text-align: center; }
+
 .post-link {
   display: block; }
 
@@ -62,8 +88,6 @@ header {
   text-align: center; }
 
 .post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
   line-height: 1; }
 
 .post-content {

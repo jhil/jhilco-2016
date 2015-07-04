@@ -1,2 +1,53 @@
 // TYPE
 
+
+// BODY
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 400;
+    color: $text-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+// HEADINGS
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: $heading-font-family;
+  font-weight: 700;
+}
+
+h1, .h1 {
+  font-size: 6rem;
+}
+
+h2, .h2 {
+  font-size: 4rem;
+}
+
+h3, .h3 {
+  font-size: 2rem;
+}
+
+h4, .h4 {
+
+}
+
+
+// PARAGRAPH
+
+p {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.small {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: .875rem;
+}
+
