@@ -1,14 +1,20 @@
 // HEADER
 
-.site-header {
+header {
+  padding: 5rem;
 }
 
-.site-logo {
+.site-header {
+  text-align: center;
+}
+
+.site-avatar {
   background: url("../images/jhilnbrand.jpg") 100% 100%;
   width: 5rem;
   height: 5rem;
   display: block;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .site-title {
