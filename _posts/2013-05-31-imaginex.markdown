@@ -1,0 +1,11 @@
+---
+layout:   post
+title:    "Imaginex"
+date:     2013-05-31
+type:     brand, motion, video, web
+excerpt:  Branding for creative technology studio
+img:      #
+link:     imaginex.co
+---
+
+Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.

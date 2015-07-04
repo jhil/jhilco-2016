@@ -1,0 +1,11 @@
+---
+layout:   post
+title:    "Grandy"
+date:     2014-11-17
+type:     brand, web
+excerpt:  Freelance design marketplace
+img:      #
+link:     grandy.io
+---
+
+Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.

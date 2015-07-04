@@ -1,0 +1,11 @@
+---
+layout:   post
+title:    "Amation"
+date:     2014-09-14
+type:     brand, motion, video, web
+excerpt:  SVG animation editor
+img:      #
+link:     amation.co
+---
+
+Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.

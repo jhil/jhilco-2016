@@ -1,22 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project Title</title>
+    <title>Jeff Hilnbrand</title>
     <description>Some description goes here.
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jul 2015 17:34:53 -0700</pubDate>
-    <lastBuildDate>Fri, 03 Jul 2015 17:34:53 -0700</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2015 17:51:56 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2015 17:51:56 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Architecture</title>
+        <description>&lt;p&gt;Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Dec 2014 00:00:00 -0800</pubDate>
+        <link>http://jhil.co/2014/12/16/architecture.html</link>
+        <guid isPermaLink="true">http://jhil.co/2014/12/16/architecture.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Grandy</title>
+        <description>&lt;p&gt;Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Nov 2014 00:00:00 -0800</pubDate>
+        <link>http://jhil.co/2014/11/17/grandy.html</link>
+        <guid isPermaLink="true">http://jhil.co/2014/11/17/grandy.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Amation</title>
+        <description>&lt;p&gt;Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 00:00:00 -0700</pubDate>
+        <link>http://jhil.co/2014/09/14/amation.html</link>
+        <guid isPermaLink="true">http://jhil.co/2014/09/14/amation.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Facetoaster</title>
+        <description>&lt;p&gt;Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jan 2014 00:00:00 -0800</pubDate>
+        <link>http://jhil.co/2014/01/20/facetoaster.html</link>
+        <guid isPermaLink="true">http://jhil.co/2014/01/20/facetoaster.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Imaginex</title>
         <description>&lt;p&gt;Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 28 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://jhil.co/2015/06/28/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://jhil.co/2015/06/28/welcome-to-jekyll.html</guid>
+        <pubDate>Fri, 31 May 2013 00:00:00 -0700</pubDate>
+        <link>http://jhil.co/2013/05/31/imaginex.html</link>
+        <guid isPermaLink="true">http://jhil.co/2013/05/31/imaginex.html</guid>
         
         
       </item>
