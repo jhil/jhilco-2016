@@ -1,0 +1,18 @@
+
+<!-- Twitter Card -->
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.twitter_username }}">
+<meta name="twitter:creator" content="@{{ site.twitter_username }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:image:src" content="{{ site.url }}/images/jhilnbrand.jpg">
+
+<!-- Facebook Open Graph -->
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:image" content="{{ site.url }}/images/jhilnbrand.jpg" />
+<meta property="og:description" content="{{ site.description }}" /> 
+<meta property="og:site_name" content="{{ site.title }}" />

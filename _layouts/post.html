@@ -4,15 +4,18 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
-      2 S&emsp;4 M&emsp;2 L&emsp;1 XL
-    </p>
+    <div class="wrapper">
+      <div class="post-header-row">
+        <div class="post-avatar"></div>
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-date">{{ page.date }}</p>
+      </div>
+      <p class="post-type">{{ page.type }}</p>
+    </div>
   </header>
 
   <article class="post-content">
-    <div class="post-img-full"></div>
-    <div class="post-description grid-50 push-25">    
-      {{ content }}
-    </div>
+    {{ content }}
   </article>
+
+</div>

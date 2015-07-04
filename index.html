@@ -6,13 +6,11 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-    <li class="grid-33">
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="post-img-thumbnail"></div>
-          {{ post.title }}
-        </a>
-      </h2>
+    <li class="post-item grid-30">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="post-thumbnail"></div>
+        <h3 class="post-list-title">{{ post.title }}</h3>
+      </a>
     </li>
     {% endfor %}
   </ul>

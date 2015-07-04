@@ -35,16 +35,13 @@ a {
   display: table;
   clear: both; }
 
-.post-img-thumbnail {
+.post-link {
+  display: block; }
+
+.post-thumbnail {
   background: #222222;
   width: 100%;
   height: 20rem; }
-
-.post-meta {
-  font-size: 14px; }
-
-.post-link {
-  display: block; }
 
 .post-header {
   margin-bottom: 2rem;
@@ -1791,3 +1788,10 @@ a {
   .grid-100 {
     clear: both;
     width: 100%; } }
+.post-link {
+  display: block; }
+
+.post-thumbnail {
+  background: #222222;
+  width: 100%;
+  height: 20rem; }
