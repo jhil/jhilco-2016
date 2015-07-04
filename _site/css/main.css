@@ -74,26 +74,35 @@ a {
     color: #222222;
     text-decoration: underline; }
 
+.wrapper {
+  padding: 0 4rem; }
+
 .wrapper:after, .grid-container:after, .grid-5:after, .mobile-grid-5:after, .tablet-grid-5:after, .grid-10:after, .mobile-grid-10:after, .tablet-grid-10:after, .grid-15:after, .mobile-grid-15:after, .tablet-grid-15:after, .grid-20:after, .mobile-grid-20:after, .tablet-grid-20:after, .grid-25:after, .mobile-grid-25:after, .tablet-grid-25:after, .grid-30:after, .mobile-grid-30:after, .tablet-grid-30:after, .grid-35:after, .mobile-grid-35:after, .tablet-grid-35:after, .grid-40:after, .mobile-grid-40:after, .tablet-grid-40:after, .grid-45:after, .mobile-grid-45:after, .tablet-grid-45:after, .grid-50:after, .mobile-grid-50:after, .tablet-grid-50:after, .grid-55:after, .mobile-grid-55:after, .tablet-grid-55:after, .grid-60:after, .mobile-grid-60:after, .tablet-grid-60:after, .grid-65:after, .mobile-grid-65:after, .tablet-grid-65:after, .grid-70:after, .mobile-grid-70:after, .tablet-grid-70:after, .grid-75:after, .mobile-grid-75:after, .tablet-grid-75:after, .grid-80:after, .mobile-grid-80:after, .tablet-grid-80:after, .grid-85:after, .mobile-grid-85:after, .tablet-grid-85:after, .grid-90:after, .mobile-grid-90:after, .tablet-grid-90:after, .grid-95:after, .mobile-grid-95:after, .tablet-grid-95:after, .grid-100:after, .mobile-grid-100:after, .tablet-grid-100:after, .grid-33:after, .mobile-grid-33:after, .tablet-grid-33:after, .grid-66:after, .mobile-grid-66:after, .tablet-grid-66:after, .clearfix:after {
   content: "";
   display: table;
   clear: both; }
 
 header {
-  padding: 5rem; }
+  padding: 4rem 1rem; }
 
 .site-header {
   text-align: center; }
 
+.site-logo {
+  display: inline-block; }
+
 .site-avatar {
-  background: url("../images/jhilnbrand.jpg") 100% 100%;
+  background: url("../images/jhilnbrand.jpg");
   width: 5rem;
   height: 5rem;
   display: block;
   border-radius: 50%;
-  margin: 0 auto; }
+  margin: 0 auto 1rem; }
 
 .site-footer {
+  text-align: center; }
+
+.post-item {
   text-align: center; }
 
 .post-link {
@@ -215,27 +224,27 @@ header {
   *zoom: 1;
   /* </IE7> */ }
 
-.grid-container, .wrapper {
+.grid-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding-left: 1rem;
+  padding-right: 1rem; }
 
 .grid-5, .mobile-grid-5, .tablet-grid-5, .grid-10, .mobile-grid-10, .tablet-grid-10, .grid-15, .mobile-grid-15, .tablet-grid-15, .grid-20, .mobile-grid-20, .tablet-grid-20, .grid-25, .mobile-grid-25, .tablet-grid-25, .grid-30, .mobile-grid-30, .tablet-grid-30, .grid-35, .mobile-grid-35, .tablet-grid-35, .grid-40, .mobile-grid-40, .tablet-grid-40, .grid-45, .mobile-grid-45, .tablet-grid-45, .grid-50, .mobile-grid-50, .tablet-grid-50, .grid-55, .mobile-grid-55, .tablet-grid-55, .grid-60, .mobile-grid-60, .tablet-grid-60, .grid-65, .mobile-grid-65, .tablet-grid-65, .grid-70, .mobile-grid-70, .tablet-grid-70, .grid-75, .mobile-grid-75, .tablet-grid-75, .grid-80, .mobile-grid-80, .tablet-grid-80, .grid-85, .mobile-grid-85, .tablet-grid-85, .grid-90, .mobile-grid-90, .tablet-grid-90, .grid-95, .mobile-grid-95, .tablet-grid-95, .grid-100, .mobile-grid-100, .tablet-grid-100, .grid-33, .mobile-grid-33, .tablet-grid-33, .grid-66, .mobile-grid-66, .tablet-grid-66 {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   /* <IE7> */
   *padding-left: 0;
   *padding-right: 0;
   /* </IE7> */ }
   .grid-5 > *, .mobile-grid-5 > *, .tablet-grid-5 > *, .grid-10 > *, .mobile-grid-10 > *, .tablet-grid-10 > *, .grid-15 > *, .mobile-grid-15 > *, .tablet-grid-15 > *, .grid-20 > *, .mobile-grid-20 > *, .tablet-grid-20 > *, .grid-25 > *, .mobile-grid-25 > *, .tablet-grid-25 > *, .grid-30 > *, .mobile-grid-30 > *, .tablet-grid-30 > *, .grid-35 > *, .mobile-grid-35 > *, .tablet-grid-35 > *, .grid-40 > *, .mobile-grid-40 > *, .tablet-grid-40 > *, .grid-45 > *, .mobile-grid-45 > *, .tablet-grid-45 > *, .grid-50 > *, .mobile-grid-50 > *, .tablet-grid-50 > *, .grid-55 > *, .mobile-grid-55 > *, .tablet-grid-55 > *, .grid-60 > *, .mobile-grid-60 > *, .tablet-grid-60 > *, .grid-65 > *, .mobile-grid-65 > *, .tablet-grid-65 > *, .grid-70 > *, .mobile-grid-70 > *, .tablet-grid-70 > *, .grid-75 > *, .mobile-grid-75 > *, .tablet-grid-75 > *, .grid-80 > *, .mobile-grid-80 > *, .tablet-grid-80 > *, .grid-85 > *, .mobile-grid-85 > *, .tablet-grid-85 > *, .grid-90 > *, .mobile-grid-90 > *, .tablet-grid-90 > *, .grid-95 > *, .mobile-grid-95 > *, .tablet-grid-95 > *, .grid-100 > *, .mobile-grid-100 > *, .tablet-grid-100 > *, .grid-33 > *, .mobile-grid-33 > *, .tablet-grid-33 > *, .grid-66 > *, .mobile-grid-66 > *, .tablet-grid-66 > * {
     /* <IE7> */
-    *margin-left: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '20px');
-    *margin-right: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '20px');
+    *margin-left: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '1rem');
+    *margin-right: expression((!this.className.match(/grid-[1-9]/) && this.currentStyle.display === 'block' && this.currentStyle.width === 'auto') && '1rem');
     /* </IE7> */ }
 
 .grid-parent {
@@ -1847,6 +1856,9 @@ header {
   .grid-100 {
     clear: both;
     width: 100%; } }
+.post-item {
+  text-align: center; }
+
 .post-link {
   display: block; }
 

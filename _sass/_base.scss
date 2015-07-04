@@ -45,8 +45,8 @@ a {
 // WRAPPER
 
 .wrapper {
-    @extend .grid-container;
     @extend %clearfix;
+    padding: 0 4rem;
 }
 
 
