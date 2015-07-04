@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Argent CF";
+  src: url("../fonts/argent/ArgentCF-Bold.otf") format("truetype");
+  src: url("../fonts/argent/ArgentCF-Bold.eot");
+  src: url("../fonts/argent/ArgentCF-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/argent/ArgentCF-Bold.woff2") format("woff2"), url("../fonts/argent/ArgentCF-Bold.woff") format("woff"), url("../fonts/argent/ArgentCF-Bold.ttf") format("truetype"), url("../fonts/argent/ArgentCF-Bold.svg#lineto-argent/ArgentCF-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: "Manifold CF";
+  src: url("../fonts/manifold/ManifoldCF-DemiBold-webfont.otf") format("truetype");
+  src: url("../fonts/manifold/ManifoldCF-DemiBold-webfont.eot");
+  src: url("../fonts/manifold/ManifoldCF-DemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/manifold/ManifoldCF-DemiBold-webfont.woff2") format("woff2"), url("../fonts/manifold/ManifoldCF-DemiBold-webfont.woff") format("woff"), url("../fonts/manifold/ManifoldCF-DemiBold-webfont.ttf") format("truetype"), url("../fonts/manifold/ManifoldCF-DemiBold-webfont.svg#lineto-manifold/ManifoldCF-DemiBold-webfont") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "Manifold CF";
+  src: url("../fonts/manifold/ManifoldCF-Bold-webfont.otf") format("truetype");
+  src: url("../fonts/manifold/ManifoldCF-Bold-webfont.eot");
+  src: url("../fonts/manifold/ManifoldCF-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/manifold/ManifoldCF-Bold-webfont.woff2") format("woff2"), url("../fonts/manifold/ManifoldCF-Bold-webfont.woff") format("woff"), url("../fonts/manifold/ManifoldCF-Bold-webfont.ttf") format("truetype"), url("../fonts/manifold/ManifoldCF-Bold-webfont.svg#lineto-manifold/ManifoldCF-Bold-webfont") format("svg");
+  font-weight: 700;
+  font-style: normal; }
 body {
   font-family: "Manifold CF", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -20,12 +41,12 @@ h3, .h3 {
   font-size: 2rem; }
 
 p {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2rem; }
 
 .small {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 2px;
   font-size: .875rem; }
 

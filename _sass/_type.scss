@@ -1,5 +1,9 @@
 // TYPE
 
+@include font-face("Argent CF", 'argent/ArgentCF-Bold', 700);
+@include font-face("Manifold CF", 'manifold/ManifoldCF-DemiBold-webfont', 600);
+@include font-face("Manifold CF", 'manifold/ManifoldCF-Bold-webfont', 700);
+
 
 // BODY
 
@@ -40,13 +44,13 @@ h4, .h4 {
 // PARAGRAPH
 
 p {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2rem;
 }
 
 .small {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 2px;
   font-size: .875rem;
 }
