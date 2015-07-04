@@ -22,14 +22,15 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: $heading-font-family;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 h1, .h1 {
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 h2, .h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h3, .h3 {

@@ -9,16 +9,9 @@ $base-font-size:      16px;
 $base-line-height:    1.5;
 
 
-// LAYOUT
-
-$spacing-unit:      2rem;
-
-
 // COLORS
 
 $grey:              #222222;
 
 $text-color:        $grey;
-$link-color:        lighten($text-color, 15%);
-
-$scratch-color:     #222222;
+$link-color:        $text-color;

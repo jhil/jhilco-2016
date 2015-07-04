@@ -8,16 +8,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-// VERTICAL RHYTHM
-
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
-
-
 // IMAGES
 
 img {
@@ -37,7 +27,6 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
