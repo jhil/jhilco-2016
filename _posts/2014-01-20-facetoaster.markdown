@@ -8,4 +8,4 @@ img:      #
 link:     facetoaster.com
 ---
 
-Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.
+![Comp](/images/thumbnail-facetoaster.png)

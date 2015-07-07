@@ -23,6 +23,8 @@
 
 .post-sitename {
   
+    flex: 25%;
+    text-align: left;
 
   a:before {
     content: "‹";
@@ -52,12 +54,12 @@
 }
 
 .post-type {
-  flex-grow: 2;
+  flex: 50%;
   text-align: center;
 }
 
 .post-date {
-  flex-grow: 1;
+  flex: 25%;
   text-align: right;
 }
 
