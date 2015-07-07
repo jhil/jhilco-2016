@@ -20,19 +20,3 @@ layout: default
   </article>
 
 </div>
-
-<div class="related-nav">
-
-  {% if page.previous.url %} 
-  <a class="related-item related-prev" href="{{ page.previous.url }}">
-    <h2 class="related-title">{{ page.previous.title }}</h2>
-  </a> 
-  {% endif %}
-
-  {% if page.next.url %}
-  <a class="related-item related-next" href="{{ page.next.url }}">
-    <h2 class="related-title">{{ page.next.title }}</h2>
-  </a> 
-  {% endif %}
-
-</div>
