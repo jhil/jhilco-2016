@@ -13,7 +13,7 @@ layout: default
           <p class="post-sitename small">{{ site.title }}</p>
         </a>
         <p class="post-type small">{{ page.type }}</p>
-        <p class="post-date small">{{ page.date }}</p>
+        <p class="post-date small">{{ page.date | date: "%Y" }}</p>
       </div>
 
     </div>
@@ -31,9 +31,9 @@ layout: default
   <a class="related-item related-prev" href="{{ page.previous.url }}">
     <h2 class="related-title">{{ page.previous.title }}</h2>
   </a> 
-  {% endif %} 
+  {% endif %}
 
-  {% if page.next.url %} 
+  {% if page.next.url %}
   <a class="related-item related-next" href="{{ page.next.url }}">
     <h2 class="related-title">{{ page.next.title }}</h2>
   </a> 

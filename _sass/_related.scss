@@ -1,0 +1,46 @@
+// RELATED
+
+.related-nav {
+  display: flex;
+}
+
+.related-item {
+  flex: 50%;
+  flex-grow: 1;
+  text-align: center;
+  padding: 4rem 1rem;
+  transition: all .2s;
+  h2:after, h2:before {
+    font-family: $base-font-family;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: margin .6s ease;
+  }
+  &:hover {
+    background: $grey;
+    color: white;
+  }
+}
+
+.related-prev {
+  h2:before {
+    content: "‹";
+  }
+  &:hover {
+    h2:before {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+.related-next {
+  h2:after {
+    content: "›";
+  }
+  &:hover {
+    h2:after {
+      margin-left: 1.5rem;
+    }
+  }
+}
