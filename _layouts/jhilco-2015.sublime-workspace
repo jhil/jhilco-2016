@@ -1,0 +1,1135 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"els",
+				"elsif	elsif"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"tex-",
+				"text-align"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tex",
+				"text-center"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jhil/Dropbox (Startup Shell)/Jeff/code/jhilco-2015/_sass/_post.scss",
+			"settings":
+			{
+				"buffer_size": 1468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "post.html",
+			"settings":
+			{
+				"buffer_size": 798,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"json",
+				"Set Syntax: JSON (Jekyll)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jek",
+				"Jekyll: Insert current date"
+			],
+			[
+				"jeky",
+				"Jekyll: Insert current date"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/jhilco-2015"
+	],
+	"file_history":
+	[
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/ventures/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/people/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/events/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/about/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/demoday/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/css/main.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_variables.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_typography.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_events.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_redirects.yml",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_plugins/pageless_redirects.rb",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_data/links.csv",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_breakpoints.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_ui.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_data/members.csv",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_about.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_includes/venture-grid.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_home.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_menu.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_data/menu.csv",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_hero.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_layouts/default.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_includes/header.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_includes/head.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/apply/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_apply.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_footer.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_forms.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/settings/_grid.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_ventures.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_config.yml",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_temp.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/js/main.js",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/css/main.css",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/blurbs/space.md",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_data/ventures.csv",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.gitignore",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/README.md",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_about.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/b03273c90a5726640e13b9da5aa0ae04fee7fa37/_grid.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_apply.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_ventures.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/js/events.js",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_includes/footer.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/shell-logo-wire.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/e7df438b9b799a163dfbd7a6d142c713e30c006d/_strip-units.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/bourbon/_bourbon-deprecated-upcoming.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_events.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/icons/facebook.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/js/events.js",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/1ff8190c4a69899867349cc82c09895855b6ab78/_background.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/66ed1547b5ebd2be7b52d78be9d33d8adbe66aa6/_row.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_ui.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/ventures.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/talks/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/ventures/logo_javazen.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/bourbon/functions/_is-light.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/e5c2018d13c9398f01d99f130321de591523d23c/_text-inputs.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_layout.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/ventures/logo_austinhou.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/bourbon/css3/_selection.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/bf637d7de273e46549f8114d0217401a20b2f304/_px-to-em.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/apply.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/icons/pin.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/bf637d7de273e46549f8114d0217401a20b2f304/_asset-pipeline.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/e5c2018d13c9398f01d99f130321de591523d23c/_ellipsis.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/icons/email.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/ventures/logo_researchconnection.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/_neat.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/_neat-helpers.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/ventures/logo_ventureboard.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_data/ventures-tabbed.csv",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/about/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/grid/_span-columns.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/grid/_private.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/grid/_omega.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/untitled",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/e7df438b9b799a163dfbd7a6d142c713e30c006d/_transition-property-name.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/e5c2018d13c9398f01d99f130321de591523d23c/_border-radius.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_layout.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/neat/settings/_visual-grid.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/apply/thanks/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/assets/ventures/logo_imaginex.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/66ed1547b5ebd2be7b52d78be9d33d8adbe66aa6/_omega.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/ventures.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-site/public/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_site/ventures.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/e7df438b9b799a163dfbd7a6d142c713e30c006d/_px-to-rem.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/1ff8190c4a69899867349cc82c09895855b6ab78/_transform.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/4d9e725e775951235b7c26f8164ee5b2e65cab05/_neat.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/assets/icons/medium.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/1ff8190c4a69899867349cc82c09895855b6ab78/_transition.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/.sass-cache/0a793de455a26c291b4b795c492c33143c1bee2b/_footer.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/bourbon/addons/_border-radius.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_photos.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass/_info.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/index.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/_hero.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_includes/footer.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/_footer.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/ed9a323ae81fc1035a3f2b98acdb0c6c0a32f5dc/_linear-positions-parser.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/ed9a323ae81fc1035a3f2b98acdb0c6c0a32f5dc/_linear-side-corner-parser.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/ed9a323ae81fc1035a3f2b98acdb0c6c0a32f5dc/_directional-values.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/a66bb1d3cf2c8f24d08d14761aa94d28ac4bf2e0/_px-to-rem.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/ed9a323ae81fc1035a3f2b98acdb0c6c0a32f5dc/_gradient-positions-parser.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/ed9a323ae81fc1035a3f2b98acdb0c6c0a32f5dc/_str-to-num.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/66da1a3144a0bfdbe140d1613417be06e2470f75/_border-color.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/66da1a3144a0bfdbe140d1613417be06e2470f75/_border-radius.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/64cd12da03380676a02cb5a0393e99fbb50eaffa/_outer-container.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/a66bb1d3cf2c8f24d08d14761aa94d28ac4bf2e0/_transition-property-name.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_convert-units.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_font-source-declaration.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_linear-positions-parser.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_linear-side-corner-parser.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_directional-values.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_gradient-positions-parser.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_str-to-num.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/ed9a323ae81fc1035a3f2b98acdb0c6c0a32f5dc/_radial-positions-parser.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/64cd12da03380676a02cb5a0393e99fbb50eaffa/_row.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/helpers/_radial-positions-parser.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/5fcacc20f1755919dc4e9ff4fafe5f0f4e21f46e/_hero.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_includes/head.html",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/css/main.scss",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/img/partners/ece.svg",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/.sass-cache/5fcacc20f1755919dc4e9ff4fafe5f0f4e21f46e/_footer.scssc",
+		"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass/bourbon/functions/_transition-property-name.scss"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015/_sass",
+			"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/shell-2015",
+			"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/bitcamp-new-site/_sass",
+			"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/jhil.github.io/_posts",
+			"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/jhil.github.io",
+			"/Users/jhil/Dropbox (Startup Shell)/Jeff/code/heads_cc",
+			"/Users/jhil/Dropbox (Personal)/code/grandy",
+			"/Users/jhil/Dropbox (Personal)/code/jhil.github.io"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"small",
+			"other",
+			"<div class=\"other-nav\">\n",
+			"area",
+			"transition",
+			"hero-cta",
+			"cta",
+			"event",
+			"large",
+			"events",
+			"fb-roo",
+			"href",
+			"rounded {",
+			"round",
+			"5by3",
+			"21by9",
+			"5by3",
+			"21",
+			"twentyonebynine",
+			"fivebythree",
+			"@site.stat",
+			"wid",
+			"form",
+			"h1",
+			"\\t",
+			" class=\"ratio-element\"",
+			"area-im",
+			"$fg-gutter",
+			"fg-gutter",
+			"flex",
+			"info",
+			"mobile-size",
+			"feature-photo",
+			"avenir",
+			"poly",
+			"6",
+			"/assets/{{ page.title | slugify }}/{{ page.title | slugify }}/",
+			"/assets/",
+			"/assets/{{ page.title | slugify }}",
+			"/assets/",
+			"twitter",
+			"3",
+			"analytics",
+			"a ",
+			"36",
+			"head",
+			"post-head",
+			"page-",
+			"h1",
+			"post",
+			"home",
+			"grey",
+			"content",
+			"pry",
+			"gif",
+			"footer",
+			"outer-container",
+			":medium",
+			"button",
+			".25rem",
+			"border",
+			"head",
+			"button",
+			"vote",
+			"like",
+			"vote",
+			"downvote",
+			"transl",
+			"modal back",
+			"btn",
+			"link",
+			"slug",
+			"slu",
+			"slugi",
+			"img",
+			"image",
+			"white",
+			"draw",
+			"300",
+			"400",
+			"merge",
+			"head",
+			"debug",
+			"rest",
+			"edge",
+			"hold",
+			"long",
+			"$image",
+			"radi",
+			"bord",
+			"vw",
+			"h1",
+			"#",
+			"width",
+			"logo",
+			"@post",
+			"edit",
+			"method",
+			"post",
+			"image_ro",
+			"head",
+			"pry",
+			"heads",
+			"hea",
+			"head",
+			"comm",
+			"heads",
+			"descr",
+			"add",
+			"post",
+			"findp",
+			"post",
+			"build",
+			"700",
+			"proxima",
+			"posts",
+			"start",
+			"root",
+			"routes",
+			"daoc",
+			"vumble",
+			"bolder",
+			"font-s",
+			"field",
+			"email us",
+			"fff",
+			"#fff",
+			"grey"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"twentyonebynine",
+			"fivebythree",
+			"21by9",
+			"5by3",
+			"",
+			"photo-feature",
+			"/assets/{{ page.title | slugify }}/",
+			"/assets/{{ page.title | slugify }}",
+			"$white",
+			"$grey",
+			"grey-light"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jhil/Dropbox (Startup Shell)/Jeff/code/jhilco-2015/_sass/_post.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Tomorrow-Night.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								730,
+								730
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Tomorrow-Night.tmTheme",
+							"history_list_is_closing": true,
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jhilco-2015.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"post",
+				"_sass/_post.scss"
+			],
+			[
+				"about",
+				"about/index.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"ui",
+				"_sass/_ui.scss"
+			],
+			[
+				"event",
+				"_sass/_events.scss"
+			],
+			[
+				"eventin",
+				"events/index.html"
+			],
+			[
+				"break",
+				"_sass/_breakpoints.scss"
+			],
+			[
+				"abo",
+				"_sass/_about.scss"
+			],
+			[
+				"index",
+				"about/index.html"
+			],
+			[
+				"ventre",
+				"_includes/venture-grid.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"home",
+				"_sass/_home.scss"
+			],
+			[
+				"menu",
+				"_sass/_menu.scss"
+			],
+			[
+				"red",
+				"_redirects.yml"
+			],
+			[
+				"link",
+				"_data/links.csv"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"defa",
+				"_layouts/default.html"
+			],
+			[
+				"hero",
+				"_sass/_hero.scss"
+			],
+			[
+				"even",
+				"_sass/_events.scss"
+			],
+			[
+				"main",
+				"css/main.scss"
+			],
+			[
+				"temp",
+				"_sass/_temp.scss"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"apply",
+				"apply/index.html"
+			],
+			[
+				"ignor",
+				".gitignore"
+			],
+			[
+				"variab",
+				"_sass/_variables.scss"
+			],
+			[
+				"hom",
+				"_sass/_home.scss"
+			],
+			[
+				"venturesind",
+				"ventures/index.html"
+			],
+			[
+				"tem",
+				"_sass/_temp.scss"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"varia",
+				"_sass/_variables.scss"
+			],
+			[
+				"footer",
+				"_sass/_footer.scss"
+			],
+			[
+				"js",
+				"js/events.js"
+			],
+			[
+				"events",
+				"events/index.html"
+			],
+			[
+				"typg",
+				"_sass/_typography.scss"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"foot",
+				"_sass/_footer.scss"
+			],
+			[
+				"appl",
+				"apply/index.html"
+			],
+			[
+				"vent",
+				"_sass/_ventures.scss"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"csv",
+				"_data/ventures.csv"
+			],
+			[
+				"typ",
+				"_sass/_typography.scss"
+			],
+			[
+				"eent",
+				"_sass/_events.scss"
+			],
+			[
+				"ventur",
+				"_includes/venture-grid.html"
+			],
+			[
+				"ventu",
+				"_sass/_ventures.scss"
+			],
+			[
+				"abou",
+				"_sass/_about.scss"
+			],
+			[
+				"b",
+				"_sass/_breakpoints.scss"
+			],
+			[
+				"vair",
+				"_sass/_variables.scss"
+			],
+			[
+				"menus",
+				"_sass/_menu.scss"
+			],
+			[
+				"links",
+				"_data/links.csv"
+			],
+			[
+				"ventures",
+				"ventures/index.html"
+			],
+			[
+				"vari",
+				"_sass/_variables.scss"
+			],
+			[
+				"d",
+				"_layouts/default.html"
+			],
+			[
+				"layo",
+				"_sass/_layout.scss"
+			],
+			[
+				"tyo",
+				"_sass/_typography.scss"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"foo",
+				"_includes/footer.html"
+			],
+			[
+				"portf",
+				"_posts/2011-08-01-portfolio.markdown"
+			],
+			[
+				"twitt",
+				"_includes/icon/twitter.html"
+			],
+			[
+				"adic",
+				"_posts/2014-08-28-adicu.markdown"
+			],
+			[
+				"favic",
+				"_includes/favicon.html"
+			],
+			[
+				"venm",
+				"_posts/2014-08-22-venmo.markdown"
+			],
+			[
+				"dot",
+				"_drafts/2014-08-22-dot.markdown"
+			],
+			[
+				"anjo",
+				"_posts/2013-10-06-anjoyd.markdown"
+			],
+			[
+				"bop",
+				"_posts/2014-02-14-bopit.markdown"
+			],
+			[
+				"lay",
+				"_sass/_layout.scss"
+			],
+			[
+				"fav",
+				"_includes/favicon.html"
+			],
+			[
+				"imag",
+				"_posts/2013-05-31-imaginex.markdown"
+			],
+			[
+				"adi",
+				"_posts/2014-08-28-adicu.markdown"
+			],
+			[
+				"hea",
+				"_includes/head.html"
+			],
+			[
+				"css",
+				"css/main.scss"
+			],
+			[
+				"favi",
+				"_includes/favicon.html"
+			],
+			[
+				"google",
+				"_includes/google-analytics.html"
+			],
+			[
+				"meta",
+				"_includes/meta.html"
+			],
+			[
+				"portfo",
+				"_posts/2011-08-01-portfolio.markdown"
+			],
+			[
+				"base",
+				"_sass/_base.scss"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"control",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"type",
+				"app/assets/stylesheets/_type.css.scss"
+			],
+			[
+				"show",
+				"app/views/posts/show.html.haml"
+			],
+			[
+				"form",
+				"app/assets/stylesheets/_form.css.scss"
+			],
+			[
+				"appli",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"application",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"post.rb",
+				"app/models/post.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"paper",
+				"config/initializers/paperclip.rb"
+			],
+			[
+				"post.css",
+				"app/assets/stylesheets/posts.css.scss"
+			],
+			[
+				"pap",
+				"config/initializers/paperclip.rb"
+			],
+			[
+				"cont",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"color",
+				"app/assets/stylesheets/_color.css.scss"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"modals",
+				"app/assets/stylesheets/_modals.css.scss"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"app",
+				"tmp/cache/assets/development/sass/5f9cb5b7b07b19f73a216aeac10ddc37292f8761/application.css.scssc"
+			],
+			[
+				"intro",
+				"app/views/posts/_intro.html.haml"
+			],
+			[
+				"postcon",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"had",
+				"app/models/head.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"postcont",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"notes",
+				"notes.txt"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"postcontr",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"readm",
+				"README.rdoc"
+			],
+			[
+				"controller",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"controll",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"postcontroll",
+				"muse/app/controllers/posts_controller.rb"
+			],
+			[
+				"index.html.h",
+				"muse/app/views/posts/index.html.haml"
+			],
+			[
+				"show.",
+				"muse/app/views/posts/show.html.haml"
+			],
+			[
+				"application.js",
+				"muse/app/assets/javascripts/application.js"
+			],
+			[
+				"index.html.ha",
+				"muse/app/views/posts/index.html.haml"
+			],
+			[
+				"application.html.h",
+				"muse/app/views/layouts/application.html.haml"
+			],
+			[
+				"application.html",
+				"muse/app/views/layouts/application.html.erb"
+			],
+			[
+				"show.htm",
+				"muse/app/views/posts/show.html.haml"
+			],
+			[
+				"post_con",
+				"muse/app/controllers/posts_controller.rb"
+			],
+			[
+				"post_cont",
+				"muse/app/controllers/posts_controller.rb"
+			],
+			[
+				"comments_cont",
+				"muse/app/controllers/comments_controller.rb"
+			],
+			[
+				"user.rb",
+				"muse/app/models/user.rb"
+			],
+			[
+				"comment.",
+				"muse/app/models/comment.rb"
+			],
+			[
+				"comment.rb",
+				"muse/app/models/comment.rb"
+			],
+			[
+				"posts_c",
+				"muse/app/controllers/posts_controller.rb"
+			],
+			[
+				"_form",
+				"muse/app/views/posts/_form.html.haml"
+			],
+			[
+				"post_o",
+				"muse/app/controllers/posts_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

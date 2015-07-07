@@ -5,14 +5,17 @@ layout: default
 
   <header class="post-header">
     <div class="wrapper">
+
       <h1 class="post-title">{{ page.title }}</h1>
+
       <div class="post-header-row">
         <a href="{{ site.baseurl }}/">
-          <p class="post-name small">{{ site.title }}</p>
+          <p class="post-sitename small">{{ site.title }}</p>
         </a>
         <p class="post-type small">{{ page.type }}</p>
         <p class="post-date small">{{ page.date }}</p>
       </div>
+
     </div>
   </header>
 
@@ -22,11 +25,18 @@ layout: default
 
 </div>
 
-<div class="other-nav">
-  <a class="other-item other-left" href="{{ site.baseurl }}/architecture">
-    <h2 class="other-title">Architecture</h2>
-  </a>
-  <a class="other-item other-right" href="{{ site.baseurl }}/grandy">
-    <h2 class="other-title">Grandy</h2>
-  </a>
+<div class="related-nav">
+
+  {% if page.previous.url %} 
+  <a class="related-item related-prev" href="{{ page.previous.url }}">
+    <h2 class="related-title">{{ page.previous.title }}</h2>
+  </a> 
+  {% endif %} 
+
+  {% if page.next.url %} 
+  <a class="related-item related-next" href="{{ page.next.url }}">
+    <h2 class="related-title">{{ page.next.title }}</h2>
+  </a> 
+  {% endif %}
+
 </div>

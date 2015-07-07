@@ -5,7 +5,7 @@
 }
 
 .post-header {
-    text-align: center;
+  text-align: center;
 }
 
 .post-title {
@@ -14,14 +14,18 @@
 }
 
 .post-header-row {
-  @extend %clearfix;
+  display: flex;
 }
 
-.post-name {
-  float: left;
+.post-sitename, .post-type, .post-date {
+
+}
+
+.post-sitename {
   &:before {
     content: "";
-    background: url("../images/jhilnbrand.jpg");
+    background: url("../images/jhilnbrand.jpg") no-repeat;
+    background-size: contain;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
@@ -32,12 +36,11 @@
 }
 
 .post-type {
-  margin-left: 33.5%;
-  float: left;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .post-date {
-  float: right;
 }
 
 .post-content {
@@ -47,7 +50,7 @@
 // POST ARTICLE
 
 article {
-  
+
   img {
     width: 100%;
   }
@@ -73,9 +76,9 @@ article {
 }
 
 
-// OTHER
+// RELATED
 
-.other-item {
+.related-item {
   float: left;
   @extend .grid-50;
   text-align: center;
@@ -94,11 +97,7 @@ article {
   }
 }
 
-// .other-title {
-//   margin: 0;
-// }
-
-.other-left {
+.related-prev {
   h2:before {
     content: "‹";
   }
@@ -109,7 +108,7 @@ article {
   }
 }
 
-.other-right {
+.related-next {
   h2:after {
     content: "›";
   }
