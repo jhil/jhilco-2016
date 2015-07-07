@@ -1,77 +1,90 @@
 // RESET
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
+}
+
+
+// BODY
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
 }
 
 
 // IMAGES
 
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 // LINKS
 
 a {
-    color: $link-color;
-    text-decoration: none;
+  color: $link-color;
+  text-decoration: none;
 
-    &:visited {
-        color: darken($link-color, 15%);
-    }
+  &:visited {
+    color: darken($link-color, 15%);
+  }
 
-    &:hover {
-        color: $text-color;
-    }
+  &:hover {
+    color: $text-color;
+  }
 }
 
 
 // WRAPPER
 
 .wrapper {
-    @extend %clearfix;
-    padding-left: 4rem;
-    padding-right: 4rem;
+  @extend %clearfix;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 
 // LAYOUT
 
 .ratio {
-    position: relative;
-    width: 100%;   /* desired width */
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 
-    &:before{
-      content: "";
-      display: block;
-      padding-top: 100%;  /* initial ratio of 1:1*/
-    }
+  &:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
 }
 
 .ratio > * {
-    position:  absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .ratio-16_9:before {
-    padding-top: 56.25%;
+  padding-top: 56.25%;
 }
 
 
@@ -80,10 +93,10 @@ a {
 
 %clearfix {
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
