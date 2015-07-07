@@ -14,7 +14,8 @@ header {
 }
 
 .site-avatar {
-  background: url("../images/jhilnbrand.jpg");
+  background: url("../images/jhilnbrand.jpg") no-repeat;
+  background-size: contain;
   width: 5rem;
   height: 5rem;
   display: block;

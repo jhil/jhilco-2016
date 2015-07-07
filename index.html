@@ -10,7 +10,7 @@ layout: default
     {% for post in site.posts %}
     <li class="post-item grid-33">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="post-thumbnail"></div>
+        <img class="post-thumbnail" src="images/thumbnail-{{ post.title | slugify }}.png">
         <h3 class="post-list-title">{{ post.title }}</h3>
       </a>
     </li>
