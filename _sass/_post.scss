@@ -22,17 +22,33 @@
 }
 
 .post-sitename {
-  &:before {
-    content: "";
+  
+
+  a:before {
+    content: "‹";
     background: url("../images/jhilnbrand.jpg") no-repeat;
+    background-position: 0 0rem;
     background-size: contain;
-    width: 1.5rem;
-    height: 1.5rem;
+    line-height: 5.125rem;
+    width: 2rem;
+    height: 2rem;
     display: block;
     border-radius: 50%;
-    margin: -.1875rem 1rem 0 0;
+    margin: -.5rem 1rem 0 0;
     float: left;
+    transition: line-height .2s ease, color .2s ease-in-out, background-position .2s ease;
+    position: relative;
+    overflow: visible;
+    z-index: 1000;
+    color: $trans;
   }
+  &:hover{
+  a:before {
+    line-height: 2.125rem;
+    color: $grey;
+    background-position: 0 -3rem;
+  }
+}
 }
 
 .post-type {
