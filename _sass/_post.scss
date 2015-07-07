@@ -62,12 +62,16 @@ article {
 }
 
 .article-left {
-  @extend .grid-50;
+  // @extend .grid-50;
+  float: left;
+  width: 50%;
   padding: 0 !important;
 }
 
 .article-right {
-  @extend .grid-50;
+  // @extend .grid-50;
+  float: left;
+  width: 50%;
   padding: 0 !important;
 }
 
