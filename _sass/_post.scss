@@ -22,9 +22,8 @@
 }
 
 .post-sitename {
-  
-    flex: 25%;
-    text-align: left;
+  flex: 25%;
+  text-align: left;
 
   a:before {
     content: "‹";
@@ -43,14 +42,13 @@
     overflow: visible;
     z-index: 1000;
     color: $trans;
+    text-align: center;
   }
-  &:hover{
-  a:before {
+  a:hover:before {
     line-height: 2.125rem;
     color: $grey;
     background-position: 0 -3rem;
   }
-}
 }
 
 .post-type {
