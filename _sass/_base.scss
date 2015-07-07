@@ -43,8 +43,37 @@ a {
 
 .wrapper {
     @extend %clearfix;
-    padding: 0 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
+
+
+// LAYOUT
+
+.ratio {
+    position: relative;
+    width: 100%;   /* desired width */
+    overflow: hidden;
+
+    &:before{
+      content: "";
+      display: block;
+      padding-top: 100%;  /* initial ratio of 1:1*/
+    }
+}
+
+.ratio > * {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ratio-16_9:before {
+    padding-top: 56.25%;
+}
+
 
 
 // CLEARFIX

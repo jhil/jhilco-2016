@@ -16,13 +16,13 @@
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  padding: 2rem;
+  padding: 0 3rem;
 }
 
 .post-item {
   width: 33.33%;
   flex-grow: 0;
-  padding: 1rem;
+  padding: 0 1rem 2rem;
   text-align: center;
 }
 
@@ -30,8 +30,14 @@
 }
 
 .post-thumbnail {
-  // width: 100%;
-  // height: auto;
+  @extend .ratio;
+  @extend .ratio-16_9;
+  display: flex;
+}
+
+.post-thumbnail img {
+  width: 100%;
+  align-items: center;
 }
 
 .post-list-title {

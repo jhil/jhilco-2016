@@ -6,11 +6,13 @@ layout: default
 
   {% include header.html %}
 
-  <ul class="post-list">
+  <ul class="wrapper post-list">
     {% for post in site.posts %}
     <li class="post-item">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <img class="post-thumbnail" src="images/thumbnail-{{ post.title | slugify }}.png">
+        <div class="post-thumbnail">
+          <img src="images/thumbnail-{{ post.title | slugify }}.png">
+        </div>
         <h3 class="post-list-title">{{ post.title }}</h3>
       </a>
     </li>
