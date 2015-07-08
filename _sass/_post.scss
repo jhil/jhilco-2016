@@ -14,51 +14,61 @@
 }
 
 .post-header-row {
-  display: flex;
+  text-align: center;
+  @include media($desktop) {
+    display: flex;
+  }
 }
 
-.post-sitename, .post-type, .post-date {
-
-}
 
 .post-sitename {
-  flex: 25%;
-  text-align: left;
+  margin-bottom: 1rem;
+  @include media($desktop) {
+    margin-bottom: 0;
+    flex: 25%;
+    text-align: left;
 
-  a:before {
-    content: "‹";
-    background: url("../images/jhilnbrand.jpg") no-repeat;
-    background-position: 0 0rem;
-    background-size: contain;
-    line-height: 5.125rem;
-    width: 2rem;
-    height: 2rem;
-    display: block;
-    border-radius: 50%;
-    margin: -.5rem 1rem 0 0;
-    float: left;
-    transition: line-height .2s ease, color .2s ease-in-out, background-position .2s ease;
-    position: relative;
-    overflow: visible;
-    z-index: 1000;
-    color: $trans;
-    text-align: center;
-  }
-  a:hover:before {
-    line-height: 2.125rem;
-    color: $grey;
-    background-position: 0 -3rem;
+    a:before {
+      content: "‹";
+      background: url("../images/jhilnbrand.jpg") no-repeat;
+      background-position: 0 0rem;
+      background-size: contain;
+      line-height: 5.125rem;
+      width: 2rem;
+      height: 2rem;
+      display: block;
+      border-radius: 50%;
+      margin: -.5rem 1rem 0 0;
+      float: left;
+      transition: line-height .2s ease, color .2s ease-in-out, background-position .2s ease;
+      position: relative;
+      overflow: visible;
+      z-index: 1000;
+      color: $trans;
+      text-align: center;
+    }
+    a:hover:before {
+      line-height: 2.125rem;
+      color: $grey;
+      background-position: 0 -3rem;
+    }
   }
 }
 
 .post-type {
-  flex: 50%;
-  text-align: center;
+  margin-bottom: 1rem;
+  @include media($desktop) {
+    margin-bottom: 0;
+    flex: 50%;
+    text-align: center;
+  }
 }
 
 .post-date {
-  flex: 25%;
-  text-align: right;
+  @include media($desktop) {
+    flex: 25%;
+    text-align: right;
+  }
 }
 
 .post-content {
