@@ -93,6 +93,8 @@ article {
 }
 
 .article-double {
-  float: left;
-  width: 50%;
+  @include media($desktop) {
+    float: left;
+    width: 50%;
+  }
 }

@@ -16,6 +16,17 @@ ul {
 }
 
 
+// LAYOUT VARS
+
+$space: .5rem;
+@include media($tablet) {
+  $space: .75rem;
+}
+@include media($desktop) {
+  $space: 1rem;
+}
+
+
 // BODY
 
 body {
@@ -56,8 +67,8 @@ a {
 
 .wrapper {
   @extend %clearfix;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 4*$space;
+  padding-right: 4*$space;
 }
 
 
