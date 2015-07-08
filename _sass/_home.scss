@@ -20,8 +20,14 @@
 }
 
 .post-item {
-  width: 33%;
-  flex-grow: 0;
+  width: 100%;
+  @include media($tablet) {
+    width: 50%;
+    flex-grow: 0;
+  }
+  @include media($desktop) {
+    width: 33.33%;
+  }
   padding: 0 1rem;
   margin-bottom: 2rem;
   text-align: center;
