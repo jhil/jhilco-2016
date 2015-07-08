@@ -2,7 +2,7 @@
 
 header {
   @extend .wrapper;
-  padding: 4rem 1rem;
+  padding: 4*$space 1rem;
 }
 
 .site-header {
@@ -16,8 +16,12 @@ header {
 .site-avatar {
   background: url("../images/jhilnbrand.jpg") no-repeat;
   background-size: contain;
-  width: 5rem;
-  height: 5rem;
+  width: 8rem;
+  height: 8rem;
+  @include media($tablet) {
+    width: 5rem;
+    height: 5rem;
+  }
   display: block;
   border-radius: 50%;
   margin: 0 auto 1rem;
