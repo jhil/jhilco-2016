@@ -75,22 +75,13 @@ article {
 
 }
 
-.article-row {
-  @extend %clearfix;
-}
-
-.article-left {
-  float: left;
-  width: 50%;
-  padding: 0 !important;
-}
-
-.article-right {
-  float: left;
-  width: 50%;
-  padding: 0 !important;
-}
-
 .article-text {
-  padding: 4rem !important;
+  @extend .h3;
+  margin: 0;
+  padding: 4rem;
+}
+
+.two-up {
+  float: left;
+  width: 50%;
 }

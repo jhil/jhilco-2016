@@ -20,7 +20,7 @@
 }
 
 .post-item {
-  width: 25%;
+  width: 33%;
   flex-grow: 0;
   padding: 0 1rem;
   margin-bottom: 2rem;
@@ -42,5 +42,6 @@
 }
 
 .post-list-title {
-padding: 1rem 0;
+  padding: 1rem 0;
+  @extend .p;
 }

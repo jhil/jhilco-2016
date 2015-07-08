@@ -20,35 +20,33 @@ body {
 // HEADINGS
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: $heading-font-family;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 h1, .h1 {
+  font-family: $heading-font-family;
   font-size: 8rem;
 }
 
 h2, .h2 {
+  font-family: $heading-font-family;
   font-size: 3rem;
 }
 
 h3, .h3 {
-  font-size: 2rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 
 // PARAGRAPH
 
-p {
-  font-weight: 600;
-  font-size: 3.5rem;
-}
-
-.small {
-  text-transform: uppercase;
+p, .p {
   font-weight: 700;
   letter-spacing: 2px;
   font-size: .875rem;
+  text-transform: uppercase;
 }
-
