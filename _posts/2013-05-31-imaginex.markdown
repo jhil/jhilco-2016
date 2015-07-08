@@ -10,8 +10,8 @@ link:     imaginex.co
 
 ![Tron](/images/imaginex-tron.jpg)
 
-![Bumper](/images/imaginex-bumper-gif.gif){: .two-up }
+![Bumper](/images/imaginex-bumper-gif.gif){: .article-double }
 
-<p class="two-up article-text">Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.</p>
+<p class="article-double article-text">Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.</p>
 
 ![Web](/images/imaginex-web-2.png)
