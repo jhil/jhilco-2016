@@ -16,14 +16,12 @@ ul {
 }
 
 
-// LAYOUT VARS
+// LAYOUT
 
-$space: .5rem;
-@include media($tablet) {
-  $space: .75rem;
-}
-@include media($desktop) {
-  $space: 1rem;
+$space: .5em;
+
+section {
+  margin-bottom: 8*$space;
 }
 
 
@@ -52,19 +50,14 @@ img {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: color .2s;
 }
 
 
 // WRAPPER
 
 .wrapper {
-  @extend %clearfix;
-  padding-left: 2*$space;
-  padding-right: 2*$space;
-  @include media($tablet) {
-    padding-left: 4*$space;
-    padding-right: 4*$space;    
-  }
+  padding: 0 8*$space;
 }
 
 

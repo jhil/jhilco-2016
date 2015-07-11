@@ -2,11 +2,16 @@
 layout: default
 ---
 
-<div class="home">
+{% include header.html %}
 
-  {% include header.html %}
+<section class="wrapper">
+  <h3 class="home-headline">
+    I like making things with people. Working with <a href="https://creativemarket.com" target="_blank">Creative Market</a> and <a href="http://www.autodesk.com" target="_blank">Autodesk</a>. Formerly with <a href="https://venmo.com" target="_blank">Venmo</a>. Partying with <a href="http://startupshell.org" target="_blank">Startup Shell</a> and <a href="http://bitca.mp" target="_blank">Bitcamp</a>.
+  </h3>
+</section>
 
-  <ul class="wrapper post-list">
+<section>
+  <ul class="post-list wrapper">
     {% for post in site.posts %}
     <li class="post-item">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -18,5 +23,4 @@ layout: default
     </li>
     {% endfor %}
   </ul>
-
-</div>
+</section>
