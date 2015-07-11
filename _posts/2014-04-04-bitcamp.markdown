@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Bitcamp"
+date:   2014-4-4
+scope:  ops, brand, web
+excerpt: Hackathon at University of Maryland
+link:   bitca.mp
+color:	FF6F3F
+---
+Content. Someday.

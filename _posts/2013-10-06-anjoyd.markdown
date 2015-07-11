@@ -1,0 +1,56 @@
+---
+layout:   post
+title:    "Anjoyd"
+date:     2013-10-06
+scope:    hardware
+excerpt:  Truck driven by android joystick and Google Glass
+link:     anjoyd.org
+color:	  99CC00
+---
+
+At [HackMIT 2013](https://hackmit.org/), I built Anjoyd with [Brent Bovenzi](http://bbovenzi.com), [Richard Higgins](http://relh.net), and [Dan Gillespie](http://dg.gg). The concept was three-part. 1: Create joystick software that used a phone's accelerometer to send directional signals to a Raspberry Pi. 2: Hack the hardware of a cheap [Radioshack Silverado RC truck](http://www.radioshack.com/radioshack-1-10-scale-silverado-hd-rc-truck/6001051.html) to allow it to interface with the software via Arduino. 3: Build camera software that allowed us to control an onboard [Raspberry Pi camera](http://www.amazon.com/Raspberry-5MP-Camera-Board-Module/dp/B00E1GGE40) module with Google Glass.
+
+![Anjoyd stack](/assets/{{ page.title | slugify }}/anjoyd-stack.png)
+
+My main contribution to the truck the mechanical design. I also picked up Arduino lessons along the way from Brent. Most of the technology muscle came from my partners, while I led the soft aspects of our project: logo, website, video, etc.
+
+![Anjoyd logo](/assets/{{ page.title | slugify }}/anjoyd-logo-trans.png)
+
+Here is our final demo video, thrown together with just minutes to spare before the project submission deadline.
+
+<div class="embed-container">
+	<iframe width="1280" height="720" src="//www.youtube.com/embed/rWcVtG7WchY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+And now for some pictures to walk you through our 48-hour sleepless journey.
+
+We started out with a few parts from an Arduino robotics kit.
+
+![Anjoyd original kit](/assets/{{ page.title | slugify }}/anjoyd-original1.jpg)
+
+These parts were assembled into a little vehicle. We made use of promotional sunglasses to hold our structure together and bottle caps to serve as washers in lieu of missing parts. At least we had a glue gun!
+
+![Anjoyd original kit](/assets/{{ page.title | slugify }}/anjoyd-original2.jpg)
+
+The team decided that these components were not powerful enough. We really wanted this car to zip! So Brent and I walked to the nearest Radioshack and purchased the cheapest toy car we could find. Brent and I stipped the hardware down so we could prepare it for interfacing with Dan and Richard's software via bluetooth.
+
+![Anjoyd car](/assets/{{ page.title | slugify }}/anjoyd-brent.jpg)
+![Anjoyd car](/assets/{{ page.title | slugify }}/anjoyd-car.jpg)
+
+The car gained some personality.
+
+![Anjoyd eyes](/assets/{{ page.title | slugify }}/anjoyd-eyes.jpg)
+
+And so after coding, building, testing, eating, stetching, drawing, swimming, and dancing, we slapped a [16000mAh battery](http://amzn.com/B00QESCTQA) on the back and started driving it around. We managed to get it working midway through demos, so we made up for lost time by driving it around the expo floor and bumping into people for attention.
+
+![Anjoyd driving](/assets/{{ page.title | slugify }}/anjoyd-floor.jpg)
+
+This got us our first collective Top 10 placing at a hackathon, and we were honored to present before hundreds of fellow students and judges. Our excitement got us through our extreme sleep deprivation.
+
+<div class="embed-container">
+	<iframe width="1280" height="720" src="//www.youtube.com/embed/X1hvf7OkBN4?rel=0&amp;showinfo=0&amp;start=3030" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Go team!
+
+![Anjoyd team](/assets/{{ page.title | slugify }}/anjoyd-team.jpg)

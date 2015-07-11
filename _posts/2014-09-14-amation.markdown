@@ -2,10 +2,10 @@
 layout:   post
 title:    "Amation"
 date:     2014-09-14
-type:     brand, motion, video, web
+scope:     ui/ux, web
 excerpt:  SVG animation editor
-img:      #
 link:     amation.co
+color:  33FF63
 ---
 
 ![Comp](/images/thumbnail-amation.png)

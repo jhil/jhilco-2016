@@ -1,11 +1,11 @@
 ---
 layout:   post
-title:    "Imaginex"
-date:     2013-05-31
-scope:    brand, motion, video, web
-excerpt:  Branding for creative technology studio
-link:     imaginex.co
-color:    111111
+title:    "Redspread"
+date:     2015-07-06
+scope:    brand
+excerpt:  Branding for backend infrastructure platform
+link:     redspread.com
+color:    FF3519
 ---
 
 ![Dreamscape](/images/imaginex_dreamscape.jpg)

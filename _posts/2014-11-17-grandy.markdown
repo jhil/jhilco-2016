@@ -2,10 +2,10 @@
 layout:   post
 title:    "Grandy"
 date:     2014-11-17
-type:     brand, web
+scope:     brand, ui/ux, web
 excerpt:  Freelance design marketplace
-img:      #
 link:     grandy.io
+color:  27C684
 ---
 
 ![Comp](/images/thumbnail-grandy.png)

@@ -1,11 +1,11 @@
 ---
 layout:   post
-title:    "Imaginex"
-date:     2013-05-31
-scope:    brand, motion, video, web
-excerpt:  Branding for creative technology studio
-link:     imaginex.co
-color:    111111
+title:    "Pantschanger Prints"
+date:     2015-04-25
+scope:    print, brand, web
+excerpt:  Small batch shirt co
+link:     pantschanger.co
+color:    FF3519
 ---
 
 ![Dreamscape](/images/imaginex_dreamscape.jpg)

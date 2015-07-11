@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Dot"
+date:   2014-08-29
+scope:  ui/ux, mobile, brand
+excerpt: One-gesture payments app for iOS
+link:   getdot.io
+color:  2AD781
+---
+
+Dot is a side-project I worked on with [Neeraj Baid](https://twitter.com/2neeraj) while interning at Venmo. The goal was to create a one-gesture payments app powered by the Venmo API that promoted ephemeral transactions with photos. The app sought to test out some ideas floating around the Venmo team while providing an additional creative outlet for Neeraj and I to explore.
+
+![Mockup](/assets/{{ page.title | slugify }}/dot2-dr.png)
+![Login](/assets/{{ page.title | slugify }}/dot-app-ios-login.png){: .shadow .center }
+![People](/assets/{{ page.title | slugify }}/dot-app-ios-people.png){: .shadow .center }
+![Slide](/assets/{{ page.title | slugify }}/dot-app-ios-gutter.png){: .shadow .center }
+![Pay](/assets/{{ page.title | slugify }}/dot-app-ios-pay.png){: .shadow .center }
+![Story](/assets/{{ page.title | slugify }}/dot-app-ios-story.png){: .shadow .center }
+![Walkthrough 1](/assets/{{ page.title | slugify }}/dot-app-ios-walkthrough1.png){: .shadow .center }
+![Walkthrough 2](/assets/{{ page.title | slugify }}/dot-app-ios-walkthrough2.png){: .shadow .center }
+![Walkthrough 3](/assets/{{ page.title | slugify }}/dot-app-ios-walkthrough3.png){: .shadow .center }
+![Walkthrough 4](/assets/{{ page.title | slugify }}/dot-app-ios-walkthrough4.png){: .shadow .center }
+![Splash page](/assets/{{ page.title | slugify }}/dot-web-1.png)

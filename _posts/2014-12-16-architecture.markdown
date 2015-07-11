@@ -2,10 +2,10 @@
 layout:   post
 title:    "Architecture"
 date:     2014-12-16
-type:     brand, motion, video, web
+scope:    3d
 excerpt:  Explorations in the built environment
-img:      #
-link:     #
+link:     
+color: 3471AA
 ---
 
 ![Comp](/images/thumbnail-architecture.png)
