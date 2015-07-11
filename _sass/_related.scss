@@ -12,10 +12,12 @@
   transition: all .2s;
   h2:after, h2:before {
     font-family: $base-font-family;
+    transform: translateY(-.25rem);
     font-weight: 600;
     font-size: 2rem;
     margin: 0 1rem;
-    transition: margin .6s ease;
+    transition: transform .6s ease;
+    display: inline-block;
   }
   &:hover {
     background: $grey;
@@ -29,7 +31,7 @@
   }
   &:hover {
     h2:before {
-      margin-right: 1.5rem;
+      transform: translate(-.5rem, -.25rem);
     }
   }
 }
@@ -40,7 +42,7 @@
   }
   &:hover {
     h2:after {
-      margin-left: 1.5rem;
+      transform: translate(.5rem, -.25rem);
     }
   }
 }

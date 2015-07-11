@@ -1,5 +1,4 @@
 {% if page.previous.url or page.next.url %}
-
 <div class="related-nav">
 
   {% if page.previous.url %} 
@@ -15,17 +14,12 @@
   {% endif %}
 
 </div>
-
 {% endif %}
 
 <footer class="site-footer clearfix">
-
   <div class="wrapper">
-
     <p class="footer-copy">{{ site.title }} {{ site.time | date: "%Y" }}</p>
-
   </div>
-
 </footer>
 
 {% include google-analytics.html %}
