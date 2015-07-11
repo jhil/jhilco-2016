@@ -1,7 +1,13 @@
 // HEADER
 
 header {
+  padding: 2*$space 0;
+  @include media($tablet) {
+  padding: 3*$space 0;
+  }
+  @include media($desktop) {
   padding: 4*$space 0;
+  }
 }
 
 .site-header {

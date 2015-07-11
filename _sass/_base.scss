@@ -20,10 +20,6 @@ ul {
 
 $space: 1rem;
 
-section {
-  margin-bottom: 4*$space;
-}
-
 
 // BODY
 
@@ -57,7 +53,13 @@ a {
 // WRAPPER
 
 .wrapper {
-  padding: 0 4*$space;
+  padding: 0 $space;
+  @include media($tablet) {
+    padding: 0 3*$space;
+  }
+  @include media($desktop) {
+    padding: 0 4*$space;
+  }
 }
 
 

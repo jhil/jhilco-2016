@@ -9,6 +9,19 @@
 
 }
 
+.home-hero {
+  margin-bottom: 2*$space;
+  @include media($tablet) {
+    margin-bottom: 3*$space;
+  }
+  @include media($desktop) {
+    margin-bottom: 4*$space;
+  }
+  @include media($large) {
+    margin-bottom: 4*$space;
+  }
+}
+
 .home-headline {
   color: $lighter-grey;
   a {
@@ -24,7 +37,8 @@
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 -$space;
+  margin-left: -$space;
+  margin-right: -$space;
 }
 
 .post-item {
@@ -36,8 +50,12 @@
   @include media($desktop) {
     width: 33.33%;
   }
-  padding: 0 1rem;
-  margin-bottom: 2*$space;
+  padding: 0 $space;
+  margin-bottom: $space;
+  @include media($tablet) {
+    margin-bottom: 2*$space;
+  }
+
   text-align: center;
   &:hover {
     .post-thumbnail {

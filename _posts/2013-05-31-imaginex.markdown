@@ -8,7 +8,7 @@ img:      #
 link:     imaginex.co
 ---
 
-![Tron](/images/imaginex-tron.jpg)
+![Dreamscape](/images/imaginex_dreamscape.jpg)
 
 ![Bumper](/images/imaginex-bumper-gif.gif){: .article-double }
 

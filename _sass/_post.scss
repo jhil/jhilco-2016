@@ -8,7 +8,13 @@
 
 .post-title {
   line-height: 1.2;
-  margin-bottom: 4*$space;
+  margin-bottom: 2*$space;
+  @include media($tablet) {
+    margin-bottom: 3*$space;
+  }
+  @include media($desktop) {
+    margin-bottom: 4*$space;
+  }
   height: auto;
 }
 
@@ -39,7 +45,7 @@
       border-radius: 50%;
       margin: -.5rem 1rem 0 0;
       float: left;
-      transition: line-height .4s ease, color .4s ease-in-out, background-position .4s ease;
+      transition: line-height .2s ease, color .2s ease-in-out, background-position .2s ease;
       position: relative;
       overflow: visible;
       z-index: 1000;
@@ -87,7 +93,13 @@ article {
 .article-text {
   @extend .h3;
   margin: 0;
-  padding: 4rem;
+  padding: 2*$space $space;
+  @include media($tablet) {
+    padding: 3*$space;
+  }
+  @include media($desktop) {
+    padding: 4*$space;
+  }
 }
 
 .article-double {
