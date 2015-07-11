@@ -18,10 +18,10 @@ ul {
 
 // LAYOUT
 
-$space: .5em;
+$space: 1rem;
 
 section {
-  margin-bottom: 8*$space;
+  margin-bottom: 4*$space;
 }
 
 
@@ -57,7 +57,7 @@ a {
 // WRAPPER
 
 .wrapper {
-  padding: 0 8*$space;
+  padding: 0 4*$space;
 }
 
 

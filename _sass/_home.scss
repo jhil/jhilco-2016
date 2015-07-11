@@ -24,7 +24,7 @@
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 -2*$space;
+  margin: 0 -$space;
 }
 
 .post-item {
@@ -37,11 +37,11 @@
     width: 33.33%;
   }
   padding: 0 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2*$space;
   text-align: center;
   &:hover {
     .post-thumbnail {
-      transform: translateY(-.25rem);
+      transform: translateY(-.375rem);
     }
   }
 }
@@ -52,14 +52,8 @@
 .post-thumbnail {
   @extend .ratio;
   @extend .ratio-16_9;
-  display: flex;
   transition: transform .4s ease-in-out;
   border-radius: 2px;
-}
-
-.post-thumbnail img {
-  width: 100%;
-  align-items: center;
 }
 
 .post-list-title {
