@@ -18,10 +18,10 @@
   }
 }
 
-
 .post-sitename {
-  margin-bottom: 1rem;
+  display: none;
   @include media($desktop) {
+    display: flex;
     margin-bottom: 0;
     flex: 25%;
     text-align: left;
