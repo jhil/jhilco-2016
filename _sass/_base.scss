@@ -88,6 +88,12 @@ a {
 }
 
 
+// TRANSITION
+
+* {
+  transition: transform .2s ease-in-out, color .2s ease-in-out, background .2s ease-in-out;
+}  
+
 
 // CLEARFIX
 
