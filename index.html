@@ -13,14 +13,14 @@ layout: default
 </div>
 
 <ul class="post-list wrapper">
-    {% for post in site.posts %}
-    <li class="post-item">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="post-thumbnail">
-          <img src="images/{{ post.title | slugify }}_thumbnail.png">
-        </div>
-        <h3 class="post-list-title">{{ post.title }}</h3>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% for post in site.posts %}
+  <li class="post-item">
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="post-thumbnail">
+        <img src="images/{{ post.title | slugify }}_thumbnail.png">
+      </div>
+      <h3 class="post-list-title">{{ post.title }}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

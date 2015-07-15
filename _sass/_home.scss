@@ -78,3 +78,21 @@
   padding: 1rem 0;
   @extend .p;
 }
+
+
+// ANIMATION
+
+.come-in {
+  transform: translateY(2rem);
+  animation: come-in 0.6s ease forwards;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
