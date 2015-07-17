@@ -37,8 +37,13 @@
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  margin-left: -$space;
-  margin-right: -$space;
+  @include media($tablet) {
+    padding: 0 $space;
+  }
+  @include media($desktop) {
+    padding: 0 2*$space;
+  }
+
 }
 
 .post-item {
@@ -50,7 +55,10 @@
   @include media($desktop) {
     width: 25%;
   }
-  padding: 0 $space;
+  padding: 0;
+  @include media($tablet) {
+    padding: 0 2*$space;
+  }
   margin-bottom: $space;
   @include media($tablet) {
     margin-bottom: 2*$space;
@@ -59,7 +67,7 @@
   text-align: center;
   &:hover {
     .post-thumbnail {
-      transform: translateY(-.375rem);
+      transform: translateY(-.5rem);
     }
   }
 }
@@ -71,7 +79,9 @@
   @extend .ratio;
   @extend .ratio-16_9;
   transition: transform .4s ease-in-out;
-  border-radius: 2px;
+  img {
+  border-radius: 3px;
+  }
 }
 
 .post-list-title {
