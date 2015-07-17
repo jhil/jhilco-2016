@@ -60,8 +60,10 @@ a {
   @include media($desktop) {
     padding: 0 4*$space;
   }
+  @include media($desktop) {
+    padding: 0 5*$space;
+  }
 }
-
 
 // LAYOUT
 

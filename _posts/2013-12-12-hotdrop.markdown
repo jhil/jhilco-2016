@@ -7,4 +7,5 @@ excerpt: Location-based messaging app
 link:   gethotdrop.com
 color:	FF5A5A
 ---
-Content. Someday.
+
+![Thumb](/images/hotdrop_thumbnail.png)

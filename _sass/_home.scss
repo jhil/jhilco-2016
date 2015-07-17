@@ -44,7 +44,7 @@
     padding: 0 3*$space;
   }
   @include media($large) {
-    padding: 0 2*$space;
+    padding: 0 2.5*$space;
   }
 
 }
@@ -54,9 +54,6 @@
   @include media($tablet) {
     width: 50%;
     flex-grow: 0;
-  }
-  @include media($tablet) {
-    width: 50%;
   }
   @include media($desktop) {
     width: 33.33%;
@@ -68,12 +65,18 @@
   @include media($tablet) {
     padding: 0 $space;
   }
-  @include media($large) {
+  @include media($desktop) {
     padding: 0 2*$space;
+  }
+  @include media($large) {
+    padding: 0 2.5*$space;
   }
   margin-bottom: $space;
   @include media($tablet) {
     margin-bottom: 2*$space;
+  }
+  @include media($large) {
+    margin-bottom: 3*$space;
   }
 
   text-align: center;

@@ -8,16 +8,4 @@ link:     challengepost.com/software/blitz-3j4iy
 color:    111111
 ---
 
-![Dreamscape](/images/imaginex_dreamscape.jpg)
-
-![Bumper](/images/imaginex_bumper.gif){: .article-double }
-
-<p class="article-double article-text">Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.</p>
-
-![Web](/images/imaginex_web-display.png)
-
-<div class="article-wrapper">
-    <div class="embed-container">
-        <iframe src="//player.vimeo.com/video/67373009?title=0&amp;byline=0&amp;portrait=0&amp;color=78ffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-</div>
+![Thumb](/images/blitz_thumbnail.png)

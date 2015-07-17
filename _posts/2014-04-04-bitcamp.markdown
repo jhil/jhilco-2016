@@ -7,4 +7,5 @@ excerpt: Hackathon at University of Maryland
 link:   bitca.mp
 color:	FF6F3F
 ---
-Content. Someday.
+
+![Thumb](/images/bitcamp_thumbnail.png)

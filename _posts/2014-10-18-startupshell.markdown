@@ -7,4 +7,5 @@ excerpt: Student Incubator + Coworking Space
 link:   startupshell.org
 color:	D84136
 ---
-Content. Someday.
+
+![Thumb](/images/startup-shell_thumbnail.png)

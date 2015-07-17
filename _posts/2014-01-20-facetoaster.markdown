@@ -8,4 +8,4 @@ link:     facetoaster.com
 color:  53667F
 ---
 
-![Comp](/images/thumbnail-facetoaster.png)
+![Thumb](/images/facetoaster_thumbnail.png)

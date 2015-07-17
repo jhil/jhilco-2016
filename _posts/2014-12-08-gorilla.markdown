@@ -8,32 +8,4 @@ link:
 color:  5B3E30
 ---
 
-I teamed up with Eileen McMahon and Brandon Gotwalt in our Biologically Inspired Robotics course (ENME489L) to build a gorilla robot. The project involved studying a certain animal's gait and building a robot that demonstrates that animal's walk cycles.
-
-![Silverback gorilla](/assets/{{ page.title | slugify }}/gorilla-silverback.jpg)
-
-## Final Robot
-
-![Side](/assets/{{ page.title | slugify }}/final-side.jpg)
-![Front](/assets/{{ page.title | slugify }}/final-front.jpg)
-![Top](/assets/{{ page.title | slugify }}/final-top.jpg)
-![Knee](/assets/{{ page.title | slugify }}/final-knee.jpg)
-![Joint](/assets/{{ page.title | slugify }}/final-joint.jpg)
-![Foot](/assets/{{ page.title | slugify }}/final-foot.jpg)
-
-## Research & Building
-
-![Early sketches](/assets/{{ page.title | slugify }}/sketch.jpg)
-![Whiteboard gait sketches](/assets/{{ page.title | slugify }}/whiteboard.jpg)
-![Brandon](/assets/{{ page.title | slugify }}/brandon.jpg)
-![Eileen](/assets/{{ page.title | slugify }}/eileen.jpg)
-![Early top](/assets/{{ page.title | slugify }}/top.jpg)
-![Adjusting](/assets/{{ page.title | slugify }}/adjusting.jpg)
-
-## Models
-
-![Gait animation](/assets/{{ page.title | slugify }}/gait-1.gif)
-![Front leg](/assets/{{ page.title | slugify }}/leg_front.JPG)
-![Back leg](/assets/{{ page.title | slugify }}/leg_back.JPG)
-![Body](/assets/{{ page.title | slugify }}/body.JPG)
-![Disc](/assets/{{ page.title | slugify }}/blade.JPG)
+![Thumb](/images/gorilla_thumbnail.png)

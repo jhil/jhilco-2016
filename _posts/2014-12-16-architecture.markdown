@@ -8,4 +8,4 @@ link:
 color: 3471AA
 ---
 
-![Comp](/images/thumbnail-architecture.png)
+![Thumb](/images/architecture_thumbnail.png)

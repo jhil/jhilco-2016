@@ -8,4 +8,4 @@ link:     grandy.io
 color:  27C684
 ---
 
-![Comp](/images/thumbnail-grandy.png)
+![Thumb](/images/grandy_thumbnail.png)

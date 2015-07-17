@@ -8,4 +8,4 @@ link:     amation.co
 color:  33FF63
 ---
 
-![Comp](/images/thumbnail-amation.png)
+![Thumb](/images/amation_thumbnail.png)

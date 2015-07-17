@@ -8,20 +8,4 @@ link:   adicu.com
 color:	59ACFF
 ---
 
-ADI (Application Developer Institute) at Columbia University is an organization that teaches students how to code through various community events. I roomed with [Dan Schlosser](http://danrs.ch), one of the ADI leaders, for my 2014 summer in New York, where we both worked at [worked at Venmo]({{ '/venmo' | prepend: site.url }}). Together, we built the [adicu.com](http://adicu.com) website over the course of a couple weeks. I led design, while Dan led the front-end development.
-
-The guidelines for this design were maintaining a friendly and charming tone while inspiring a drive for technology education. In the spec that we prepared, Dan wrote that "ADI brings together Computer Science students." This was the core principle behind the organization, and I wanted the design to reflect that, too.
-
-On top of that, the site was complex in terms of the types of content it had to serve. There are events, blog posts, subscription fields, general informative content, resources and projects, learning guides, and so on. The site is powered by [Eventum](http://danrs.ch/blog/post-2014-09-26#read), a fantastic publishing platform created from scratch by Dan. My design had to surface all this content to the front-page while placing emphasis on events (which is ADI's main hook for new members). At the same time, each module of the site must be robust.
-
-After a few iterations, we settled on this design. It was inspired by [Creative Mornings](http://creativemornings.com/talks) and [General Assembly](https://generalassemb.ly) among other sites which shared similar values with ADI.
-
-![ADI website](/assets/{{ page.title | slugify }}/adi-web.png){: .shadow }
-
-I created a mockup for the home page, which establishes the design language and major modules. Then Dan and I paired to code a few of the other pages based on these template elements. I left Dan and his team with this new ADI design language to continue building out future pages. The visual style can also be used in non-web ADI assets, such as posters or apparel.
-
-We also worked on a few logo concepts, which ended up going unused by the organization. The goal here was to clearly show a technology association while still emitting welcoming vibes.
-
-![ADI logo concept](/assets/{{ page.title | slugify }}/adi-logo.gif)
-
-Other logo ideas included using a `>_` motif with the typography, but visually, it wasn't appealing. I still love how this concept turned out and might use that typography style in a future project.
+![Thumb](/images/adicu_thumbnail.png)
