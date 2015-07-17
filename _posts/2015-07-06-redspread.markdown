@@ -8,14 +8,13 @@ link:     redspread.com
 color:    FF3519
 ---
 
-![Dreamscape](/images/imaginex_dreamscape.jpg)
+![Logo on red](/images/redspread_logo-red.png)
 
-<p class="article-double article-text">Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.</p>
+<p class="article-text">Redspread is creating flexible backend infrastructure with people in mind.</p>
 
-![Bumper](/images/imaginex-bumper-gif.gif){: .article-double }
+![Logo on white](/images/redspread_logo-white.png){: .article-double }
+![Logotype on white](/images/redspread_logo-white-text.png){: .article-double }
 
-![Web](/images/imaginex-web-2.png)
+![Colors](/images/redspread_colors.png)
 
-<div class="embed-container">
-    <iframe src="//player.vimeo.com/video/67373009?title=0&amp;byline=0&amp;portrait=0&amp;color=78ffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+![Website](/images/redspread_display.png)
