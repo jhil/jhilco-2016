@@ -9,6 +9,42 @@
 
 }
 
+.site-header {
+  padding-bottom: 8rem;
+}
+
+.home-header {
+  display: flex;
+}
+
+.site-me {
+  width: 50%;
+  flex-grow: 1;
+  margin-right: 5rem;
+  text-align: center;
+}
+
+.site-logo {
+  display: inline-block;
+}
+
+.site-avatar {
+  background: url("../images/jhilnbrand.jpg") no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 8rem;
+  @include media($tablet) {
+    width: 5rem;
+    height: 5rem;
+  }
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+
+.site-title {
+}
+
 .home-hero {
   margin-bottom: 2*$space;
   @include media($tablet) {
@@ -23,6 +59,7 @@
 }
 
 .home-headline {
+  // flex-grow: 1;
   color: $lighter-grey;
   a {
     color: $light-grey;
