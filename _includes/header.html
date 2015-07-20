@@ -6,6 +6,15 @@
     <div class="hero-info">
       <a class="site-avatar" href="{{ site.baseurl }}/"></a>
       <p class="site-name">{{ site.title }}</p>
+      <ul class="social-list">
+      {% for account in site.data.accounts %}
+        <li class="social-item">
+          <a class="social-item-link" href="{{ account.url }}/{{ account.username }}">
+            {{ account.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
     </div>
 
     <h3 class="hero-headline">

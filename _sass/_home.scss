@@ -18,8 +18,11 @@
 }
 
 .hero-info {
+  display: flex;
   flex: 25%;
+  flex-direction: column;
   padding-right: 2.5rem;
+  align-items: center;
 }
 
 .hero-headline {
@@ -62,6 +65,20 @@
   @include media($large) {
     margin-bottom: 4*$space;
   }
+}
+
+.social-list {
+  margin-top: 1rem;
+  text-align: center;
+
+}
+
+.social-item {
+}
+
+.social-item-link {
+  @extend .p;
+  color: $lighter-grey;
 }
 
 .post-list {
