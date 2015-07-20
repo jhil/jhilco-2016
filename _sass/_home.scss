@@ -81,16 +81,19 @@
   width: 1.5rem;
   display: block;
   padding: .25rem;
+  > svg pasth {
+    fill: $lighter-grey;
+    transition: fill .2s;
+  }
+  &:hover {
+    > svg path {
+      fill: $grey;
+    }
+  }
 }
 
 .social-item-link {
-  color: $lighter-grey;
   line-height: 1;
-}
-
-.social-email {
-  color: $lighter-grey;
-  margin: 1rem 0 0;
 }
 
 .post-list {
