@@ -68,17 +68,30 @@
 }
 
 .social-list {
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
-
 }
 
 .social-item {
+  float: left;
+  margin: 0 .5rem;
 }
 
+.icon {
+  width: 1.5rem;
+  display: block;
+  padding: .25rem;
+}
+
+
 .social-item-link {
-  @extend .p;
   color: $lighter-grey;
+  line-height: 1;
+}
+
+.social-email {
+  color: $lighter-grey;
+  margin: 1rem 0 0;
 }
 
 .post-list {
@@ -93,7 +106,6 @@
   @include media($large) {
     padding: 0 2.5*$space;
   }
-
 }
 
 .post-item {
@@ -142,7 +154,7 @@
   @extend .ratio-16_9;
   transition: transform .4s ease-in-out;
   img {
-  border-radius: 3px;
+    border-radius: 3px;
   }
 }
 

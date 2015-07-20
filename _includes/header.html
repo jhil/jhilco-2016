@@ -9,12 +9,15 @@
       <ul class="social-list">
       {% for account in site.data.accounts %}
         <li class="social-item">
-          <a class="social-item-link" href="{{ account.url }}/{{ account.username }}">
-            {{ account.name }}
+          <a class="social-item-link" href="{{ account.url }}/{{ account.username }}" target="_blank">
+            <span class="icon">
+              {% include icon/{{ account.name }}.html %}
+            </span>
           </a>
         </li>
       {% endfor %}
     </ul>
+      <a class="social-email" href="mailto:jahilnbrand@gmail.com"><p>Email</p></a>
     </div>
 
     <h3 class="hero-headline">
