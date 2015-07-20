@@ -10,22 +10,28 @@
 }
 
 .site-header {
-  padding-bottom: 8rem;
 }
 
-.home-header {
+.home-hero {
   display: flex;
+  width: 100%;
 }
 
-.site-me {
-  width: 50%;
-  flex-grow: 1;
-  margin-right: 5rem;
-  text-align: center;
+.hero-info {
+  flex: 25%;
+  padding-right: 2.5rem;
 }
 
-.site-logo {
-  display: inline-block;
+.hero-headline {
+  flex: 75%;
+  padding-left: 2.5rem;
+  color: $lighter-grey;
+  a {
+    color: $light-grey;
+    &:hover {
+      color: $grey;
+    }
+  }
 }
 
 .site-avatar {
@@ -39,10 +45,10 @@
   }
   display: block;
   border-radius: 50%;
-  margin: 0 auto 1rem;
+  margin: 0 0 1rem;
 }
 
-.site-title {
+.site-name {
 }
 
 .home-hero {
@@ -55,19 +61,6 @@
   }
   @include media($large) {
     margin-bottom: 4*$space;
-  }
-}
-
-.home-headline {
-  // flex-grow: 1;
-  color: $lighter-grey;
-  a {
-    color: $light-grey;
-    // text-decoration: underline;
-    // border-bottom: 3px $lighter-grey solid;
-    &:hover {
-      color: $grey;
-    }
   }
 }
 
