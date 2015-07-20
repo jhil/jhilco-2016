@@ -9,6 +9,51 @@
 
 }
 
+.site-header {
+}
+
+.home-hero {
+  display: flex;
+  width: 100%;
+}
+
+.hero-info {
+  display: flex;
+  flex: 25%;
+  flex-direction: column;
+  padding-right: 2.5rem;
+  align-items: center;
+}
+
+.hero-headline {
+  flex: 75%;
+  padding-left: 2.5rem;
+  color: $lighter-grey;
+  a {
+    color: $light-grey;
+    &:hover {
+      color: $grey;
+    }
+  }
+}
+
+.site-avatar {
+  background: url("../images/jhilnbrand.jpg") no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 8rem;
+  @include media($tablet) {
+    width: 5rem;
+    height: 5rem;
+  }
+  display: block;
+  border-radius: 50%;
+  margin: 0 0 1rem;
+}
+
+.site-name {
+}
+
 .home-hero {
   margin-bottom: 2*$space;
   @include media($tablet) {
@@ -22,16 +67,18 @@
   }
 }
 
-.home-headline {
+.social-list {
+  margin-top: 1rem;
+  text-align: center;
+
+}
+
+.social-item {
+}
+
+.social-item-link {
+  @extend .p;
   color: $lighter-grey;
-  a {
-    color: $light-grey;
-    // text-decoration: underline;
-    // border-bottom: 3px $lighter-grey solid;
-    &:hover {
-      color: $grey;
-    }
-  }
 }
 
 .post-list {
