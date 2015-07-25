@@ -1,33 +1,53 @@
 // HOME
 
-
-.page-content {
-
+.home-hero-wrapper, .post-list {
+  @include media($tablet) {
+    padding: 0 2*$space;
+  }
+  @include media($desktop) {
+    padding: 0 3*$space;
+  }
+  @include media($large) {
+    padding: 0 2.5*$space;
+  }
 }
 
-.page-heading {
-
-}
-
-.site-header {
+.post-item, .hero-info, .hero-headline {
+  @include media($tablet) {
+    padding: 0 $space;
+  }
+  @include media($desktop) {
+    padding: 0 2*$space;
+  }
+  @include media($large) {
+    padding: 0 2.5*$space;
+  }
 }
 
 .home-hero {
   display: flex;
   width: 100%;
+  margin-bottom: 2*$space;
+  @include media($tablet) {
+    margin-bottom: 3*$space;
+  }
+  @include media($desktop) {
+    margin-bottom: 4*$space;
+  }
+  @include media($large) {
+    margin-bottom: 4*$space;
+  }
 }
 
 .hero-info {
   display: flex;
   flex: 25%;
   flex-direction: column;
-  padding-right: 2.5rem;
   align-items: center;
 }
 
 .hero-headline {
   flex: 75%;
-  padding-left: 2.5rem;
   color: $lighter-grey;
   a {
     color: $light-grey;
@@ -52,19 +72,6 @@
 }
 
 .site-name {
-}
-
-.home-hero {
-  margin-bottom: 2*$space;
-  @include media($tablet) {
-    margin-bottom: 3*$space;
-  }
-  @include media($desktop) {
-    margin-bottom: 4*$space;
-  }
-  @include media($large) {
-    margin-bottom: 4*$space;
-  }
 }
 
 .social-list {
@@ -99,16 +106,8 @@
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  @include media($tablet) {
-    padding: 0 2*$space;
-  }
-  @include media($desktop) {
-    padding: 0 3*$space;
-  }
-  @include media($large) {
-    padding: 0 2.5*$space;
-  }
 }
+
 
 .post-item {
   width: 100%;
