@@ -17,12 +17,9 @@ body {
 }
 
 html {
-  font-size: 14px;
-  @include tablet {
-    font-size: 15px;
-  }
+  font-size: 16px;
   @include desktop {
-    font-size: 16px;
+    font-size: 17px;
   }
   @include large {
     font-size: 18px;
