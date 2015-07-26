@@ -2,27 +2,24 @@
 
 .home-hero-wrapper, .post-list, .post-item, .hero-info, .hero-headline {
   @include tablet {
-    padding: 0 $space;
+    padding: 0 1rem;
   }
   @include desktop {
-    padding: 0 2*$space;
+    padding: 0 2rem;
   }
   @include large {
-    padding: 0 2.5*$space;
+    padding: 0 2.5rem;
   }
 }
 
 .home-hero {
-  // margin-bottom: $space;
   @include tablet {
-    // margin-bottom: 2*$space;
   }
   @include desktop {
     display: flex;
     width: 100%;
   }
   @include large {
-    // margin-bottom: 3*$space;
   }
 }
 
@@ -115,19 +112,19 @@
 
 .post-item {
   width: 100%;
-  margin-bottom: $space;
+  margin-bottom: 1rem;
   text-align: center;
   @include tablet {
     width: 50%;
     flex-grow: 0;
-    margin-bottom: 2*$space;
+    margin-bottom: 1rem;
   }
   @include desktop {
     width: 33.33%;
   }
   @include large {
     width: 25%;
-    margin-bottom: 3*$space;
+    margin-bottom: 1rem;
   }
   &:hover {
     .post-thumbnail {

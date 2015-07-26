@@ -2,12 +2,12 @@
 
 .site-footer {
   text-align: center;
-  padding: 2*$space 0;
+  padding: 2rem 0;
   @include tablet {
-    padding: 3*$space 0;
+    padding: 3rem 0;
   }
   @include desktop {
-    padding: 4*$space 0;
+    padding: 4rem 0;
   }
 }
 

@@ -48,15 +48,15 @@ a {
 // WRAPPER
 
 .wrapper {
-  padding: 0 $space;
+  padding: 0 1rem;
   @include tablet {
-    padding: 0 3*$space;
+    padding: 0 3rem;
   }
   @include desktop {
-    padding: 0 4*$space;
+    padding: 0 4rem;
   }
   @include large {
-    padding: 0 5*$space;
+    padding: 0 5rem;
   }
 }
 

@@ -8,12 +8,12 @@
 
 .post-title {
   line-height: 1.2;
-  margin-bottom: 2*$space;
+  margin-bottom: 2rem;
   @include tablet {
-    margin-bottom: 3*$space;
+    margin-bottom: 3rem;
   }
   @include desktop {
-    margin-bottom: 4*$space;
+    margin-bottom: 4rem;
   }
   height: auto;
 }
@@ -124,12 +124,12 @@ article {
 .article-text {
   @extend .h3;
   margin: 0;
-  padding: 2*$space $space;
+  padding: 2rem 1rem;
   @include tablet {
-    padding: 3*$space;
+    padding: 3rem;
   }
   @include desktop {
-    padding: 4*$space;
+    padding: 4rem;
   }
 }
 

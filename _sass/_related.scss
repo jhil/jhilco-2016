@@ -8,12 +8,12 @@
   flex: 50%;
   flex-grow: 1;
   text-align: center;
-  padding: 2*$space 1rem;
+  padding: 2rem 1rem;
   @include tablet {
-    padding: 3*$space 1rem;
+    padding: 3rem 1rem;
   }
   @include desktop {
-    padding: 4*$space 1rem;
+    padding: 4rem 1rem;
   }
   transition: all .2s;
   h2:after, h2:before {
