@@ -25,13 +25,14 @@
 }
 
 .home-hero {
-  display: flex;
-  width: 100%;
   margin-bottom: 2*$space;
   @include tablet {
     margin-bottom: 3*$space;
   }
   @include desktop {
+    display: flex;
+    width: 100%;
+
     margin-bottom: 4*$space;
   }
   @include large {
@@ -40,14 +41,29 @@
 }
 
 .hero-info {
-  display: flex;
-  flex: 25%;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+display: block;
+margin-bottom: 2rem;
+  @include desktop {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 33.33%;
+  }
+  @include large {
+    flex: 25%;
+  }
 }
 
 .hero-headline {
-  flex: 75%;
+display: block;
+  @include desktop {
+    flex: 66.66%;
+  }
+  @include large {
+    flex: 75%;
+  }
   color: $lighter-grey;
   a {
     color: $light-grey;
@@ -68,7 +84,7 @@
   }
   display: block;
   border-radius: 50%;
-  margin: 0 0 1rem;
+  margin: 0 auto 1rem;
 }
 
 .site-name {
@@ -88,8 +104,10 @@
 }
 
 .social-list {
-  margin-top: 1rem;
   text-align: center;
+  display: inline-block;
+  margin: 1rem auto 0;
+@extend %clearfix;
 }
 
 .social-item {
