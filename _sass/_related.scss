@@ -17,7 +17,7 @@
   }
   transition: all .2s;
   h2:after, h2:before {
-    font-family: $base-font-family;
+    font-family: $sans;
     transform: translateY(-.25rem);
     font-weight: 600;
     font-size: 2rem;

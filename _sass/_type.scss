@@ -8,12 +8,25 @@
 // BODY
 
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+  font-family: $sans;
+  font-size: 100%;
+  line-height: 1.5;
   font-weight: 400;
   color: $text-color;
   -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-size: 14px;
+  @include tablet {
+    font-size: 15px;
+  }
+  @include desktop {
+    font-size: 16px;
+  }
+  @include large {
+    font-size: 18px;
+  }
 }
 
 
@@ -25,7 +38,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 h1, .h1 {
-  font-family: $heading-font-family;
+  font-family: $serif;
   font-size: 2rem;
   @include tablet {
     font-size: 4rem;
@@ -40,7 +53,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-family: $heading-font-family;
+  font-family: $serif;
   font-size: 1.5rem;
   @include tablet {
     font-size: 1.75rem;
