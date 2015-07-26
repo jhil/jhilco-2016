@@ -13,13 +13,9 @@
 }
 
 .home-hero {
-  @include tablet {
-  }
   @include desktop {
     display: flex;
     width: 100%;
-  }
-  @include large {
   }
 }
 
@@ -59,30 +55,26 @@
 .site-avatar {
   background: url("../images/jhilnbrand.jpg") no-repeat;
   background-size: contain;
-  width: 8rem;
-  height: 8rem;
-  @include tablet {
-    width: 5rem;
-    height: 5rem;
-  }
+  width: 6rem;
+  height: 6rem;
   display: block;
   border-radius: 50%;
   margin: 0 auto 1rem;
 }
 
 .site-name {
+  line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .social-list {
-  text-align: center;
-  display: inline-block;
-  margin: 1rem auto 0;
-  @extend %clearfix;
-}
-
-.social-item {
-  float: left;
-  margin: 0 .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 10rem;
+  width: 12vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .icon {
@@ -90,7 +82,7 @@
   display: block;
   padding: .25rem;
   > svg path {
-    fill: $lighter-grey;
+    fill: $light-grey;
     transition: fill .2s;
   }
   &:hover {
