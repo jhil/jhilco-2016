@@ -13,16 +13,16 @@
 }
 
 .home-hero {
-  margin-bottom: $space;
+  // margin-bottom: $space;
   @include tablet {
-    margin-bottom: 2*$space;
+    // margin-bottom: 2*$space;
   }
   @include desktop {
     display: flex;
     width: 100%;
   }
   @include large {
-    margin-bottom: 3*$space;
+    // margin-bottom: 3*$space;
   }
 }
 
@@ -74,19 +74,6 @@
 }
 
 .site-name {
-}
-
-.home-hero {
-  margin-bottom: 2*$space;
-  @include tablet {
-    margin-bottom: 3*$space;
-  }
-  @include desktop {
-    margin-bottom: 4*$space;
-  }
-  @include large {
-    margin-bottom: 4*$space;
-  }
 }
 
 .social-list {

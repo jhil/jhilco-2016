@@ -8,5 +8,8 @@ header {
   @include desktop {
     padding: 4*$space 0;
   }
+  @include large {
+    padding: 5*$space 0;
+  }
 }
 
