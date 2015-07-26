@@ -3,16 +3,12 @@
 .site-footer {
   text-align: center;
   padding: 2*$space 0;
-  @include media($tablet) {
+  @include tablet {
   padding: 3*$space 0;
   }
-  @include media($desktop) {
+  @include desktop {
   padding: 4*$space 0;
   }
-  @include media($large) {
-  padding: 4*$space 0;
-  }
-
 }
 
 .footer-copy {

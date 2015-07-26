@@ -9,10 +9,10 @@
 .post-title {
   line-height: 1.2;
   margin-bottom: 2*$space;
-  @include media($tablet) {
+  @include tablet {
     margin-bottom: 3*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     margin-bottom: 4*$space;
   }
   height: auto;
@@ -20,14 +20,14 @@
 
 .post-header-row {
   text-align: center;
-  @include media($desktop) {
+  @include desktop {
     display: flex;
   }
 }
 
 .post-sitename {
   display: none;
-  @include media($desktop) {
+  @include desktop {
     display: flex;
     margin-bottom: 0;
     flex: 25%;
@@ -62,7 +62,7 @@
 
 .post-scope {
   margin-bottom: 1rem;
-  @include media($desktop) {
+  @include desktop {
     margin-bottom: 0;
     flex: 50%;
     text-align: center;
@@ -70,7 +70,7 @@
 }
 
 .post-date {
-  @include media($desktop) {
+  @include desktop {
     flex: 25%;
     text-align: right;
   }
@@ -112,11 +112,11 @@ article {
 }
 
 .article-wrapper {
-  @include media($tablet) {
+  @include tablet {
     margin: 0 auto;
     max-width: 960px;
   }
-  @include media($large) {
+  @include large {
     max-width: 65%;
   }
 }
@@ -125,16 +125,16 @@ article {
   @extend .h3;
   margin: 0;
   padding: 2*$space $space;
-  @include media($tablet) {
+  @include tablet {
     padding: 3*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 4*$space;
   }
 }
 
 .article-double {
-  @include media($desktop) {
+  @include desktop {
     float: left;
     width: 50%;
   }

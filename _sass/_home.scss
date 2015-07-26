@@ -42,7 +42,7 @@
   background-size: contain;
   width: 8rem;
   height: 8rem;
-  @include media($tablet) {
+  @include tablet {
     width: 5rem;
     height: 5rem;
   }
@@ -56,13 +56,13 @@
 
 .home-hero {
   margin-bottom: 2*$space;
-  @include media($tablet) {
+  @include tablet {
     margin-bottom: 3*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     margin-bottom: 4*$space;
   }
-  @include media($large) {
+  @include large {
     margin-bottom: 4*$space;
   }
 }
@@ -99,44 +99,44 @@
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  @include media($tablet) {
+  @include tablet {
     padding: 0 2*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 0 3*$space;
   }
-  @include media($large) {
+  @include large {
     padding: 0 2.5*$space;
   }
 }
 
 .post-item {
   width: 100%;
-  @include media($tablet) {
+  @include tablet {
     width: 50%;
     flex-grow: 0;
   }
-  @include media($desktop) {
+  @include desktop {
     width: 33.33%;
   }
-  @include media($large) {
+  @include large {
     width: 25%;
   }
   padding: 0;
-  @include media($tablet) {
+  @include tablet {
     padding: 0 $space;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 0 2*$space;
   }
-  @include media($large) {
+  @include large {
     padding: 0 2.5*$space;
   }
   margin-bottom: $space;
-  @include media($tablet) {
+  @include tablet {
     margin-bottom: 2*$space;
   }
-  @include media($large) {
+  @include large {
     margin-bottom: 3*$space;
   }
 

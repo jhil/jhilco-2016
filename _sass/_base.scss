@@ -54,13 +54,13 @@ a {
 
 .wrapper {
   padding: 0 $space;
-  @include media($tablet) {
+  @include tablet {
     padding: 0 3*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 0 4*$space;
   }
-  @include media($desktop) {
+  @include large {
     padding: 0 5*$space;
   }
 }

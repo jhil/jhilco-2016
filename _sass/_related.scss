@@ -9,10 +9,10 @@
   flex-grow: 1;
   text-align: center;
   padding: 2*$space 1rem;
-  @include media($tablet) {
+  @include tablet {
     padding: 3*$space 1rem;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 4*$space 1rem;
   }
   transition: all .2s;
