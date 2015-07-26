@@ -1,25 +1,25 @@
 // HOME
 
 .home-hero-wrapper, .post-list {
-  @include media($tablet) {
+  @include tablet {
     padding: 0 2*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 0 3*$space;
   }
-  @include media($large) {
+  @include large {
     padding: 0 2.5*$space;
   }
 }
 
 .post-item, .hero-info, .hero-headline {
-  @include media($tablet) {
+  @include tablet {
     padding: 0 $space;
   }
-  @include media($desktop) {
+  @include desktop {
     padding: 0 2*$space;
   }
-  @include media($large) {
+  @include large {
     padding: 0 2.5*$space;
   }
 }
@@ -28,13 +28,13 @@
   display: flex;
   width: 100%;
   margin-bottom: 2*$space;
-  @include media($tablet) {
+  @include tablet {
     margin-bottom: 3*$space;
   }
-  @include media($desktop) {
+  @include desktop {
     margin-bottom: 4*$space;
   }
-  @include media($large) {
+  @include large {
     margin-bottom: 4*$space;
   }
 }
