@@ -1,5 +1,8 @@
 // HOME
 
+
+// HERO
+
 .home-hero-wrapper, .post-list, .post-item, .hero-info, .hero-headline {
   @include tablet {
     padding: 0 1rem;
@@ -73,7 +76,7 @@
   align-items: center;
   min-width: 10rem;
   width: 12vw;
-  max-width: 100%;
+  max-width: 11.5rem;
   margin: 0 auto;
 }
 
@@ -81,6 +84,10 @@
   width: 1.5rem;
   display: block;
   padding: .25rem;
+  line-height: 1;
+  svg {
+    display: block;
+  }
   > svg path {
     fill: $light-grey;
     transition: fill .2s;
@@ -96,11 +103,13 @@
   line-height: 1;
 }
 
+
+// POST LIST
+
 .post-list {
   display: flex;
   flex-flow: row wrap;
 }
-
 
 .post-item {
   width: 100%;
