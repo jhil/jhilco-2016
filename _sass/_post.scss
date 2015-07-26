@@ -89,22 +89,22 @@ article {
   }
 
   .embed-container {
-      max-width: 100%;
-      vertical-align: middle;
+    max-width: 100%;
+    vertical-align: middle;
   }
 
   .embed-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-      iframe, object, embed {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-      }
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    iframe, object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 
 

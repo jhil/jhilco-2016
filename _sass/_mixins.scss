@@ -4,27 +4,27 @@
 // MEDIA QUERIES
 
 @mixin media($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
+  @media screen and (min-width: $device) {
+    @content;
+  }
 }
 
 @mixin tablet {
-    @include media($tablet) {
-        @content;
-    }
+  @include media($tablet) {
+    @content;
+  }
 }
 
 @mixin desktop {
-    @include media($desktop) {
-        @content;
-    }
+  @include media($desktop) {
+    @content;
+  }
 }
 
 @mixin large {
-    @include media($large) {
-        @content;
-    }
+  @include media($large) {
+    @content;
+  }
 }
 
 
@@ -36,10 +36,10 @@
     src: url("../fonts/#{$file-name}.otf") format("truetype");
     src: url("../fonts/#{$file-name}.eot");
     src: url("../fonts/#{$file-name}.eot?#iefix") format("embedded-opentype"),
-         url("../fonts/#{$file-name}.woff2") format("woff2"),
-         url("../fonts/#{$file-name}.woff") format("woff"),
-         url("../fonts/#{$file-name}.ttf") format("truetype"),
-         url("../fonts/#{$file-name}.svg#lineto-#{$file-name}") format("svg");
+    url("../fonts/#{$file-name}.woff2") format("woff2"),
+    url("../fonts/#{$file-name}.woff") format("woff"),
+    url("../fonts/#{$file-name}.ttf") format("truetype"),
+    url("../fonts/#{$file-name}.svg#lineto-#{$file-name}") format("svg");
     font-weight: $font-weight;
     font-style: $font-style;
   }
