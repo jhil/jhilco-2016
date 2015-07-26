@@ -1,18 +1,6 @@
 // HOME
 
-.home-hero-wrapper, .post-list {
-  @include tablet {
-    padding: 0 2*$space;
-  }
-  @include desktop {
-    padding: 0 3*$space;
-  }
-  @include large {
-    padding: 0 2.5*$space;
-  }
-}
-
-.post-item, .hero-info, .hero-headline {
+.home-hero-wrapper, .post-list, .post-item, .hero-info, .hero-headline {
   @include tablet {
     padding: 0 $space;
   }
@@ -25,25 +13,23 @@
 }
 
 .home-hero {
-  margin-bottom: 2*$space;
+  margin-bottom: $space;
   @include tablet {
-    margin-bottom: 3*$space;
+    margin-bottom: 2*$space;
   }
   @include desktop {
     display: flex;
     width: 100%;
-
-    margin-bottom: 4*$space;
   }
   @include large {
-    margin-bottom: 4*$space;
+    margin-bottom: 3*$space;
   }
 }
 
 .hero-info {
   text-align: center;
-display: block;
-margin-bottom: 2rem;
+  display: block;
+  margin-bottom: 2rem;
   @include desktop {
     margin-bottom: 0;
     display: flex;
@@ -57,7 +43,7 @@ margin-bottom: 2rem;
 }
 
 .hero-headline {
-display: block;
+  display: block;
   @include desktop {
     flex: 66.66%;
   }
@@ -107,7 +93,7 @@ display: block;
   text-align: center;
   display: inline-block;
   margin: 1rem auto 0;
-@extend %clearfix;
+  @extend %clearfix;
 }
 
 .social-item {
@@ -119,7 +105,7 @@ display: block;
   width: 1.5rem;
   display: block;
   padding: .25rem;
-  > svg pasth {
+  > svg path {
     fill: $lighter-grey;
     transition: fill .2s;
   }
@@ -137,49 +123,25 @@ display: block;
 .post-list {
   display: flex;
   flex-flow: row wrap;
-  @include tablet {
-    padding: 0 2*$space;
-  }
-  @include desktop {
-    padding: 0 3*$space;
-  }
-  @include large {
-    padding: 0 2.5*$space;
-  }
 }
 
 
 .post-item {
   width: 100%;
+  margin-bottom: $space;
+  text-align: center;
   @include tablet {
     width: 50%;
     flex-grow: 0;
+    margin-bottom: 2*$space;
   }
   @include desktop {
     width: 33.33%;
   }
   @include large {
     width: 25%;
-  }
-  padding: 0;
-  @include tablet {
-    padding: 0 $space;
-  }
-  @include desktop {
-    padding: 0 2*$space;
-  }
-  @include large {
-    padding: 0 2.5*$space;
-  }
-  margin-bottom: $space;
-  @include tablet {
-    margin-bottom: 2*$space;
-  }
-  @include large {
     margin-bottom: 3*$space;
   }
-
-  text-align: center;
   &:hover {
     .post-thumbnail {
       transform: translateY(-.5rem);
