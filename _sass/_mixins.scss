@@ -15,6 +15,12 @@
   }
 }
 
+@mixin laptop {
+  @include media($laptop) {
+    @content;
+  }
+}
+
 @mixin desktop {
   @include media($desktop) {
     @content;
