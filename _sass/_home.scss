@@ -28,7 +28,7 @@
 .hero-info {
   text-align: center;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   @include laptop {
     margin-bottom: 0;
     display: flex;
@@ -36,7 +36,7 @@
     align-items: center;
     flex: 33.33%;
   }
-  @include large {
+  @include desktop {
     flex: 25%;
   }
 }
@@ -46,7 +46,7 @@
   @include laptop {
     flex: 66.66%;
   }
-  @include large {
+  @include desktop {
     flex: 75%;
   }
   color: $lighter-grey;
@@ -61,11 +61,27 @@
 .site-avatar {
   background: url("../images/jhilnbrand.jpg") no-repeat;
   background-size: contain;
-  width: 6rem;
-  height: 6rem;
   display: block;
   border-radius: 50%;
   margin: 0 auto 1rem;
+  width: 6rem;
+  height: 6rem;
+  @include laptop {
+    width: 5rem;
+    height: 5rem;
+  }
+  @include desktop {
+    width: 6rem;
+    height: 6rem;
+  }
+  @include large {
+    width: 7rem;
+    height: 7rem;
+  }
+  @include huge {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 
 .site-name {

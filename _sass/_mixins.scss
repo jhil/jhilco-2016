@@ -33,6 +33,12 @@
   }
 }
 
+@mixin huge {
+  @include media($huge) {
+    @content;
+  }
+}
+
 
 // FONT-FACE
 

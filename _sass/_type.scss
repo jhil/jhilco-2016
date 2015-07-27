@@ -67,10 +67,16 @@ h3, .h3 {
   @include tablet {
     font-size: 2rem;
   }  
+  @include laptop {
+    font-size: 2.25rem;
+  }  
   @include desktop {
-    font-size: 2.5rem;
+    font-size: 2.625rem;
   }  
   @include large {
+    font-size: 2.875rem;
+  }  
+  @include huge {
     font-size: 3.25rem;
   }  
 }
