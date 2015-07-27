@@ -84,6 +84,16 @@
 
 article {
 
+  .article-body {
+    width: 50%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: block;
+    text-transform: none;
+    font-size: 1.375rem;
+    font-weight: 300;
+  }
+
   img {
     width: 100%;
   }
@@ -106,8 +116,6 @@ article {
       height: 100%;
     }
   }
-
-
 
 }
 

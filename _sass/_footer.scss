@@ -3,11 +3,14 @@
 .site-footer {
   text-align: center;
   padding: 2rem 0;
-  @include tablet {
+  @include laptop {
     padding: 3rem 0;
   }
   @include desktop {
     padding: 4rem 0;
+  }
+  @include large {
+    padding: 5rem 0;
   }
 }
 

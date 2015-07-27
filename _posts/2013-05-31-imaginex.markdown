@@ -13,6 +13,8 @@ color:    111111
 <p class="article-double article-text">Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.</p>
 ![Bumper](/images/imaginex_bumper.gif){: .article-double }
 
+<p class="article-body">This is totally normal text. Food truck hoodie Bushwick, paleo authentic blog Marfa ugh. XOXO freegan ugh, vegan tilde post-ironic kitsch. Kitsch tilde letterpress readymade Odd Future scenester next level Truffaut, whatever butcher mustache lo-fi before they sold out locavore fingerstache. Pork belly Brooklyn mumblecore, slow-carb quinoa iPhone fingerstache. Flannel salvia cliche cardigan, fanny pack artisan photo booth McSweeney's squid banh mi vegan sriracha gastropub sartorial beard. Forage meditation slow-carb artisan readymade kitsch. Forage YOLO Carles tousled hella scenester cred, iPhone next level authentic keytar migas umami.</p>
+
 ![Web](/images/imaginex_web-display.png)
 
 <div class="article-wrapper">

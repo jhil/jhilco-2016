@@ -3,7 +3,7 @@
 title: "Jeff Hilnbrand"
 email: jahilnbrand@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I like making cool things with cool people.
+  I like making things with people.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site
