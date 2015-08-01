@@ -49,11 +49,11 @@
   @include desktop {
     flex: 75%;
   }
-  color: $lighter-grey;
+  color: $lighter-gray;
   a {
-    color: $light-grey;
+    color: $light-gray;
     &:hover {
-      color: $grey;
+      color: $gray;
     }
   }
 }
@@ -116,12 +116,12 @@
     display: block;
   }
   > svg path {
-    fill: $light-grey;
+    fill: $light-gray;
     transition: fill .2s;
   }
   &:hover {
     > svg path {
-      fill: $grey;
+      fill: $gray;
     }
   }
 }
