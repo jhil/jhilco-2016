@@ -9,3 +9,5 @@ color:    FF3519
 ---
 
 ![Thumb](/images/medprint_thumbnail.png)
+
+### MedPrint gives doctors and patients a higher chance of post-surgery success through 3D rendering and printing services.
