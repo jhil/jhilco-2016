@@ -87,12 +87,20 @@
 article {
 
   .article-body {
-    max-width: 960px;
-    margin: 8rem auto;
+    max-width: 60rem;
+    margin: 0 auto;
     display: block;
     text-transform: none;
     font-size: 1.75rem;
     font-weight: 300;
+    padding: 2rem 1rem;
+    @include tablet {
+      padding: 6rem 3rem;
+    }
+    @include desktop {
+      padding: 8rem 4rem;
+    }
+
   }
 
   img {
