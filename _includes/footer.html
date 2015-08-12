@@ -1,27 +1,11 @@
-{% if page.previous.url or page.next.url %}
-<div class="related-nav">
 
-  {% if page.previous.url %} 
-  <a class="related-item related-prev" href="{{ page.previous.url }}">
-    <h2 class="related-title">{{ page.previous.title }}</h2>
-  </a> 
-  {% endif %}
 
-  {% if page.next.url %}
-  <a class="related-item related-next" href="{{ page.next.url }}">
-    <h2 class="related-title">{{ page.next.title }}</h2>
-  </a> 
-  {% endif %}
-
-</div>
-{% endif %}
-
-<footer class="site-footer clearfix">
+<!-- <footer class="site-footer clearfix">
   <div class="wrapper">
     <p class="footer-copy">{{ site.title }} {{ site.time | date: "%Y" }}</p>
   </div>
 </footer>
-
+ -->
 {% include google-analytics.html %}
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>

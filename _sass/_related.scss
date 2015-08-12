@@ -5,6 +5,7 @@
 }
 
 .related-item {
+  color: $lighter-gray;
   flex: 50%;
   flex-grow: 1;
   text-align: center;
@@ -26,8 +27,8 @@
     display: inline-block;
   }
   &:hover {
-    background: $gray;
-    color: white;
+    // background: $lighter-gray;
+    color: $light-gray;
   }
 }
 
