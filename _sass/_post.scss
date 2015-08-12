@@ -138,12 +138,11 @@ article {
   }
 
   .article-double {
-  @include desktop {
-    float: left;
-    width: 50%;
+    @include desktop {
+      float: left;
+      width: 50%;
+    }
   }
-}
-
 
 }
 
