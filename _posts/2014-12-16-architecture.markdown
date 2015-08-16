@@ -8,22 +8,24 @@ link:
 color: 3471AA
 ---
 
-<div class="article-double">
-    <iframe src="http://gfycat.com/ifr/FrankNippyEuropeanfiresalamander" frameborder="0" scrolling="no" width="1280" height="720" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
-</div>
-<div class="article-double">
-    <iframe src="http://gfycat.com/ifr/TinyClutteredDore" frameborder="0" scrolling="no" width="1280" height="720" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
-</div>
+<video class="double" autoplay loop poster="//i.imgur.com/PUeuE9Hh.jpg">
+    <source src="http://i.imgur.com/PUeuE9H.webm" type="video/webm">
+</video>
 
-![Final Project Board](/images/architecture_final-board.png)
+<video class="double" autoplay loop poster="//i.imgur.com/HQdbu8N.jpg">
+    <source src="http://i.imgur.com/HQdbu8N.webm" type="video/webm">
+</video>
 
-![Final Project Definition](/images/architecture_final-definition.png){: .article-double}
-![Final Project Diagram](/images/architecture_final-diagram.png){: .article-double}
+![Final Project Board](/images/architecture_final-board.png){: .tight .shadow}
 
-![Project 3 Board](/images/architecture_3-board.png)
+![Final Project Definition](/images/architecture_final-definition.png){: .double .double-tight }
 
-![Midterm Project Board](/images/architecture_midterm-board.png)
+![Final Project Diagram](/images/architecture_final-diagram.png){: .double .double-tight}
 
-![Project 2 Board](/images/architecture_2-board.png)
+![Project 3 Board](/images/architecture_3-board.png){: .tight .shadow}
 
-<p class="article-body">In UMD's Architecture Technology course (ARCH470), I completed a series of projects using software including Rhinoceros, Grasshopper, V-Ray, Revit, Photoshop, 3ds Maxx, and SketchUp.</p>
+![Midterm Project Board](/images/architecture_midterm-board.png){: .tight .shadow}
+
+![Project 2 Board](/images/architecture_2-board.png){: .tight .shadow}
+
+<p class="body">In UMD's Architecture Technology course (ARCH470), I completed a series of projects using software including Rhinoceros, Grasshopper, V-Ray, Revit, Photoshop, 3ds Maxx, and SketchUp.</p>

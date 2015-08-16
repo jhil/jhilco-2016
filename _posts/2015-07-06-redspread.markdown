@@ -10,13 +10,13 @@ color:    FF3519
 
 ![Website](/images/redspread_dashboard-display.png)
 
-<h3 class="text-center">Redspread is creating a product for seamless backend development and deployment for teams of all sizes.</h3>
+<h3>Redspread is creating a product for seamless backend development and deployment for teams of all sizes.</h3>
 
 ![Logo on red](/images/redspread_logo-red.png)
 
 
-![Logo on white](/images/redspread_logo-white.png){: .article-double }
-![Logotype on white](/images/redspread_logo-white-text.png){: .article-double }
+![Logo on white](/images/redspread_logo-white.png){: .double }
+![Logotype on white](/images/redspread_logo-white-text.png){: .double }
 
 ![Website](/images/redspread_home-display.png)
 

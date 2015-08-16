@@ -86,13 +86,11 @@
 
 article {
 
-  .article-body {
-    max-width: 60rem;
-    margin: 0 auto;
-    display: block;
-    text-transform: none;
-    font-size: 1.75rem;
-    font-weight: 300;
+  p {
+    text-align: center;
+  }
+
+  .body, .double-tight {
     padding: 2rem 1rem;
     @include tablet {
       padding: 6rem 3rem;
@@ -100,19 +98,28 @@ article {
     @include desktop {
       padding: 8rem 4rem;
     }
+  }
 
+  .body {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: block;
+    text-transform: none;
+    font-size: 1.75rem;
+    font-weight: 300;
+    text-align: left;
   }
 
   img {
     width: 100%;
   }
 
-  .embed-container {
+  .embed {
     max-width: 100%;
     vertical-align: middle;
   }
 
-  .embed-container {
+  .embed {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -126,6 +133,16 @@ article {
     }
   }
 
+  video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  video.double {
+    min-width: 50%;
+    min-height: 50%;
+  }
+
   h3 {
     margin: 0;
     padding: 2rem 1rem;
@@ -137,10 +154,24 @@ article {
     }
   }
 
-  .article-double {
+  .double {
+    width: 100%;
     @include desktop {
       float: left;
       width: 50%;
+    }
+  }
+
+  .tight {
+    max-width: 60rem;
+    @include desktop {
+      margin: 4rem 0;
+    }
+  }
+
+  .shadow {
+    @include desktop {
+      box-shadow: 0 0 1rem rgba(0,0,0,0.15);
     }
   }
 
