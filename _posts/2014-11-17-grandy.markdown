@@ -8,4 +8,11 @@ link:     grandy.io
 color:  27C684
 ---
 
-![Thumb](/images/grandy_thumbnail.png)
+![Laptop](/images/grandy_thumbnail.png){: .tight }
+
+![Logo](/images/grandy_logo.png)
+
+<h3>Grandy removes the pain from freelancing for designers and clients with a marketplace for $1,000 projects.</h3>
+
+![Laptop](/images/grandy_landing-display.png)
+

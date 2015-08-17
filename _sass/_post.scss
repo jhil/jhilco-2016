@@ -89,6 +89,7 @@ article {
   text-align: center;
 
   p {
+    clear: both;
     text-align: center;
   }
 
@@ -188,6 +189,12 @@ article {
     @include desktop {
       box-shadow: 0 0 1rem rgba(0,0,0,0.15);
     }
+  }
+
+  .bg {
+    @extend .shadow;
+    background: $lightest-gray;
+    padding: 8rem;
   }
 
 }

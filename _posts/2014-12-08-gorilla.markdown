@@ -19,4 +19,4 @@ color:  5B3E30
 ![Gorilla Robot Team](/images/gorilla_team.jpg){: .double}
 ![Gorilla Robot Whiteboard](/images/gorilla_whiteboard.jpg){: .double}
 
-![Gorilla Robot Sketch](/images/gorilla_sketch.jpg)
+![Gorilla Robot Sketch](/images/gorilla_sketch.jpg){: .}
