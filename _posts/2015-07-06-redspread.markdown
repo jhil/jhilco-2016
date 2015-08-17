@@ -14,12 +14,12 @@ color:    FF3519
 
 ![Logo on red](/images/redspread_logo-red.png)
 
-
 ![Logo on white](/images/redspread_logo-white.png){: .double }
 ![Logotype on white](/images/redspread_logo-white-text.png){: .double }
 
+
 ![Website](/images/redspread_home-display.png)
 
+<p class="body">I worked with the Redspread team to develop a brand that communicates challenging concepts about enterprise backend infrastructure and development.</p>
 
-![Colors](/images/redspread_colors.png)
-
+![Colors](/images/redspread_colors.png){: .tight }

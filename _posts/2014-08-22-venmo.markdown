@@ -1,0 +1,13 @@
+---
+layout:   post
+title:    "Venmo"
+date:     2014-08-22
+scope:    ui/ux, mobile, motion
+excerpt:  Product design for Venmo
+link:     venmo.com
+color:    0884CC
+---
+
+<video class="tighter" autoplay loop>
+    <source src="/images/venmo_slider.webm" type="video/webm">
+</video>

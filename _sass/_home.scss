@@ -161,7 +161,10 @@
   }
 }
 
-.post-link {
+a.post-link:visited {
+  .post-thumbnail {
+    opacity: .8;
+  }
 }
 
 .post-thumbnail {
