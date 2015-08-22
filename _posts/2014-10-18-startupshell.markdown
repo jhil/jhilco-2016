@@ -10,7 +10,7 @@ color:	D84136
 
 ![Thumb](/images/startup-shell_thumbnail.png)
 
-<h3>Startup Shell is a student-run coworking space and incubator at the University of Maryland that fosters entrepreneurship through collaboration.</h3>
+<h3>Startup Shell is a nonprofit student-run incubator and coworking space at the University of Maryland.</h3>
 
 ![About page](/images/startup-shell_homepage-display.png)
 

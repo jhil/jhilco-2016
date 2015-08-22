@@ -12,20 +12,18 @@ color: 3471AA
     <source src="http://i.imgur.com/PUeuE9H.webm" type="video/webm">
 </video>
 
-<video class="double" autoplay loop poster="//i.imgur.com/HQdbu8N.jpg">
-    <source src="http://i.imgur.com/HQdbu8N.webm" type="video/webm">
+<video class="double" autoplay loop poster="//i.imgur.com/NImWTab.jpg">
+    <source src="http://i.imgur.com/NImWTab.webm" type="video/webm">
 </video>
+
+<p class="body">In UMD's Architecture Technology course, I created a series of projects that explored the use of software to augment the design process. Models were built with Rhinoceros, Revit, and SketchUp, parametrically modeled with Grasshopper, rendered with V-Ray and 3ds Max, comped with Photoshop, and finally presented with Illustrator and InDesign.</p>
 
 ![Final Project Board](/images/architecture_final-board.png){: .tight .shadow}
 
-![Final Project Definition](/images/architecture_final-definition.png){: .double .double-tight }
-
-![Final Project Diagram](/images/architecture_final-diagram.png){: .double .double-tight}
+![Final Project Definition](/images/architecture_final-definition.png){: .tight }
 
 ![Project 3 Board](/images/architecture_3-board.png){: .tight .shadow}
 
 ![Midterm Project Board](/images/architecture_midterm-board.png){: .tight .shadow}
 
 ![Project 2 Board](/images/architecture_2-board.png){: .tight .shadow}
-
-<p class="body">In UMD's Architecture Technology course (ARCH470), I completed a series of projects using software including Rhinoceros, Grasshopper, V-Ray, Revit, Photoshop, 3ds Maxx, and SketchUp.</p>

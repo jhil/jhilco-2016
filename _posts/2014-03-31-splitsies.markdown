@@ -8,4 +8,10 @@ link:
 color:	2ECC71
 ---
 
-![Thumb](/images/splitsies_thumbnail.png)
+![Logo](/images/splitsies_logo.png)
+
+<h3>Splitsies is a speedy bill splitting app concept.</h3>
+
+![App](/images/splitsies_app.png)
+
+<p class="body">Splitsies is a no-frills approach to splitting bill that is designed for speed. One designated payee covers the table’s bill and collects payment from others in the group using the app. The central interaction involves adjusting each person’s portion of the total bill with adjustable bars. Splitsies was featured in Behance's <a href="http://www.appdesignserved.co/gallery/15747585/Splitsies" target="_blank">App Design Served</a> gallery.</p>

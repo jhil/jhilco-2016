@@ -89,7 +89,6 @@ article {
   text-align: center;
 
   p {
-    clear: both;
     text-align: center;
   }
 
@@ -104,6 +103,7 @@ article {
   }
 
   .body {
+    clear: both;
     max-width: 60rem;
     margin: 0 auto;
     display: block;
@@ -115,14 +115,13 @@ article {
 
   img {
     width: 100%;
+    clear: both;
   }
 
   .embed {
     max-width: 100%;
     vertical-align: middle;
-  }
-
-  .embed {
+    clear: both;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -137,6 +136,7 @@ article {
   }
 
   video {
+    clear: both;
     min-width: 100%;
     min-height: 100%;
   }
@@ -153,6 +153,7 @@ article {
   }
 
   h3 {
+    clear: both;
     margin: 0;
     padding: 2rem 1rem;
     @include tablet {
@@ -165,6 +166,7 @@ article {
 
   .double {
     width: 100%;
+    clear: none;
     @include desktop {
       float: left;
       width: 50%;
@@ -196,6 +198,7 @@ article {
     background: $lightest-gray;
     padding: 8rem;
   }
+
 
 }
 

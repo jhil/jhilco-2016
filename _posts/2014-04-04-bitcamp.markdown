@@ -1,11 +1,25 @@
 ---
 layout: post
 title:  "Bitcamp"
-date:   2014-4-4
-scope:  ops, brand, web
+date:   2014-04-04
+scope:  brand, ops, web
 excerpt: Hackathon at University of Maryland
 link:   bitca.mp
 color:	FF6F3F
 ---
 
-![Thumb](/images/bitcamp_thumbnail.png)
+![Smiles](/images/bitcamp_smiles.jpg)
+
+![Logo](/images/bitcamp_sticker.png)
+
+![Oculus](/images/bitcamp_dave.jpg){: .double .double-tight }
+
+<p class="body double">I founded Bitcamp with some friends from Startup Shell and Terrapin Hackers. We wanted to create a hackathon experience that encouraged exploration into new technologies. From there, I led the design, brand, and marketing efforts. Bitcamp has impacted over 2,500 participants and raised over $350,000 in sponsorship in its two years of existence.</p>
+
+![Colorwar](/images/bitcamp_colorwar.jpg)
+
+<h3>Colorwar is a design competition held at Bitcamp featuring knockout challenges and intense live fun.</h3>
+
+![Colorwar Logo](/images/bitcamp_colorwar-logo.png){: .tight }
+
+![Colorwar Judges](/images/bitcamp_colorwar-judges.gif){: .tight }
