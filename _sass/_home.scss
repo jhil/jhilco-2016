@@ -3,7 +3,7 @@
 
 // HERO
 
-.home-hero-wrapper, .post-list, .post-item, .hero-info, .hero-headline {
+.home-hero-wrapper, .post-list, .post-item, .hero-info, .headline {
   @include tablet {
     padding: 0 1rem;
   }
@@ -41,7 +41,7 @@
   }
 }
 
-.hero-headline {
+.headline {
   display: block;
   @include laptop {
     flex: 66.66%;
@@ -117,7 +117,7 @@
   }
   > svg path {
     fill: $light-gray;
-    transition: fill .2s;
+    transition: fill .18s;
   }
   &:hover {
     > svg path {
