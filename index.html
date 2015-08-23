@@ -10,15 +10,41 @@ layout: default
         <a class="site-avatar" href="{{ site.baseurl }}/"></a>
         <p class="site-name">{{ site.title }}</p>
         <ul class="social-list">
-          {% for account in site.data.accounts %}
           <li class="social-item">
-            <a class="social-item-link" href="{{ account.url }}/{{ account.username }}" target="_blank">
+            <a class="social-item-link" href="https://twitter.com/jhilmd" target="_blank">
               <span class="icon">
-                {% include {{ account.name }}.html %}
+                {% include twitter.html %}
               </span>
             </a>
           </li>
-          {% endfor %}
+          <li class="social-item">
+            <a class="social-item-link" href="https://www.linkedin.com/in/jhilnbrand" target="_blank">
+              <span class="icon">
+                {% include linkedin.html %}
+              </span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-item-link" href="https://dribbble.com/jhil" target="_blank">
+              <span class="icon">
+                {% include dribbble.html %}
+              </span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-item-link" href="https://medium.com/@jhilmd" target="_blank">
+              <span class="icon">
+                {% include medium.html %}
+              </span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-item-link" href="https://github.com/jhil" target="_blank">
+              <span class="icon">
+                {% include github.html %}
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
 
