@@ -8,5 +8,10 @@ link:     amation.co
 color:  33FF63
 ---
 
-![Thumb](/images/amation_thumbnail.png)
+![Mockup](/images/amation_thumbnail.png){: .tight }
 
+<p class="body">Amation combines the extensive capabilities of SVG with the power of media tools and animation. Users animate vectors in a timeline-based editor suite (like After Effects) and can distribute them as native SVGs, in all their scalable glory.</p>
+
+<div class="embed">
+    <iframe width="1280" height="720" src="//www.youtube.com/embed/pmm7UmDyQyE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
