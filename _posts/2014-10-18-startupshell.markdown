@@ -8,7 +8,7 @@ link:   startupshell.org
 color:	D84136
 ---
 
-![Thumb](/images/startup-shell_thumbnail.png)
+![Thumb](/images/startup-shell_timelapse.png)
 
 <h3>Startup Shell is a nonprofit student-run incubator and coworking space at the University of Maryland.</h3>
 

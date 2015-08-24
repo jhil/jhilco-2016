@@ -11,6 +11,7 @@ color:    111111
 ![Dreamscape](/images/imaginex_dreamscape.jpg)
 
 ![Bumper](/images/imaginex_bumper.gif){: .double }
+
 <h3 class="double">Imaginex is a creative technology studio that produces immersive, multi-sensory experiences.</h3>
 
 ![Pretty Lights](/images/imaginex_pretty-lights.png)

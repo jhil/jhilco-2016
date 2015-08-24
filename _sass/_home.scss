@@ -48,6 +48,7 @@
   }
   @include desktop {
     flex: 75%;
+    font-size: 3vw;
   }
   color: $lighter-gray;
   a {
