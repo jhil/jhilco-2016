@@ -44,8 +44,8 @@
 .headline {
   display: block;
   font-size: 1.25rem;
-  @include laptop {
-    f
+  @include tablet {
+    font-size: 1.875rem;
   }
   @include laptop {
     flex: 66.66%;
