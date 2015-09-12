@@ -16,17 +16,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-html {
-  font-size: 16px;
-  @include desktop {
-    font-size: 17px;
-  }
-  @include large {
-    font-size: 18px;
-  }
-}
-
-
 // HEADINGS
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -43,7 +32,7 @@ h1, .h1 {
   @include desktop {
     font-size: 6rem;
   }  
-  @include large {
+  @include hd {
     font-size: 8rem;
   }
 }

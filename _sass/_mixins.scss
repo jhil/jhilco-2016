@@ -9,42 +9,6 @@
   }
 }
 
-@mixin tablet {
-  @include media($tablet) {
-    @content;
-  }
-}
-
-@mixin laptop {
-  @include media($laptop) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @include media($desktop) {
-    @content;
-  }
-}
-
-@mixin large {
-  @include media($large) {
-    @content;
-  }
-}
-
-@mixin hd {
-  @include media($hd) {
-    @content;
-  }
-}
-
-@mixin huge {
-  @include media($huge) {
-    @content;
-  }
-}
-
 
 // FONT-FACE
 

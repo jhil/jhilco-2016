@@ -13,7 +13,7 @@
   @include desktop {
     padding: 0 2rem;
   }
-  @include large {
+  @include hd {
     padding: 0 2.5rem;
   }
 }
@@ -80,13 +80,14 @@
     width: 6rem;
     height: 6rem;
   }
-  @include large {
+  @include hd {
     width: 7rem;
     height: 7rem;
   }
-  @include huge {
-    width: 8rem;
-    height: 8rem;
+  @include large {
+    width: 8vw;
+    height: 8vw;
+    margin-bottom: 1.5rem;
   }
 }
 

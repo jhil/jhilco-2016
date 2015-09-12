@@ -16,6 +16,22 @@ ul {
 }
 
 
+// BASE SIZES
+
+html {
+  font-size: 14px;
+  @include desktop {
+    font-size: 16px;
+  }
+  @include hd {
+    font-size: 18px;
+  }
+  @include large {
+    font-size: 24px;
+  }
+}
+
+
 // BODY
 
 body {
@@ -58,7 +74,7 @@ a {
   @include desktop {
     padding: 0 4rem;
   }
-  @include large {
+  @include hd {
     padding: 0 5rem;
   }
 }
