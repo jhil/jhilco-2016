@@ -28,7 +28,9 @@
 }
 
 .post-sitename {
-  display: none;
+  margin-bottom: 1rem;
+
+
   @include desktop {
     display: flex;
     margin-bottom: 0;
@@ -108,7 +110,10 @@ article {
     margin: 0 auto;
     display: block;
     text-transform: none;
-    font-size: 1.75rem;
+    font-size: 1rem;
+    @include desktop {
+      font-size: 1.75rem;
+    }
     font-weight: 300;
     text-align: left;
   }
@@ -198,7 +203,6 @@ article {
     background: $lightest-gray;
     padding: 8rem;
   }
-
 
 }
 

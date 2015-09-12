@@ -177,7 +177,7 @@ a.post-link:visited {
 .post-thumbnail {
   @extend .ratio;
   @extend .ratio-16_9;
-  transition: transform .3s ease;
+  transition: all .3s ease;
   img {
     border-radius: 3px;
   }
