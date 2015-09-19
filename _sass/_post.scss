@@ -14,7 +14,7 @@
   @include tablet {
     margin-bottom: 3rem;
   }
-  @include desktop {
+  @include laptop {
     margin-bottom: 4rem;
   }
   height: auto;
@@ -22,7 +22,7 @@
 
 .post-header-row {
   text-align: center;
-  @include desktop {
+  @include laptop {
     display: flex;
   }
 }
@@ -31,7 +31,7 @@
   margin-bottom: 1rem;
 
 
-  @include desktop {
+  @include laptop {
     display: flex;
     margin-bottom: 0;
     flex: 25%;
@@ -66,7 +66,7 @@
 
 .post-scope {
   margin-bottom: 1rem;
-  @include desktop {
+  @include laptop {
     margin-bottom: 0;
     flex: 50%;
     text-align: center;
@@ -74,7 +74,7 @@
 }
 
 .post-date {
-  @include desktop {
+  @include laptop {
     flex: 25%;
     text-align: right;
   }
@@ -89,33 +89,55 @@
 article {
 
   text-align: center;
+  overflow: hidden;
 
-  p {
-    text-align: center;
-  }
-
-  .body, .double-tight {
-    padding: 2rem 1rem;
+  > * {
+    margin: 0 auto 2rem;
     @include tablet {
-      padding: 6rem 3rem;
+      margin: 0 auto 3rem ;
     }
     @include desktop {
-      padding: 8rem 4rem;
+      margin: 0 auto 8rem;
+    }
+    @include large {
+      margin: 0 auto 10rem;
+    }
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
-  .body {
+  .no-space {
+    margin: 0 auto 0;
+  }
+
+  p {
     clear: both;
     max-width: 60rem;
-    margin: 0 auto;
     display: block;
     text-transform: none;
     font-size: 1rem;
-    @include desktop {
+    text-align: center;
+
+    @include tablet {
       font-size: 1.75rem;
     }
     font-weight: 300;
     text-align: left;
+    a {
+      text-decoration: underline;
+    }
+
+  }
+
+  p, .double-tight {
+    padding: 0 1rem;
+    @include tablet {
+      padding: 0 3rem;
+    }
+    @include desktop {
+      padding: 0 4rem;
+    }
   }
 
   img {
@@ -153,43 +175,48 @@ article {
 
   video.tighter {
     min-width: 20rem;
-    margin: 0 auto;
     text-align: center;
   }
 
   h3 {
     clear: both;
-    margin: 0;
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     @include tablet {
-      padding: 3rem;
+      padding: 0 3rem;
     }
-    @include desktop {
-      padding: 4rem;
+    @include laptop {
+      max-width: 80rem;
+      padding: 0 4rem;
     }
   }
 
   .double {
     width: 100%;
     clear: none;
-    @include desktop {
+    @include laptop {
+      margin: 0;
       float: left;
       width: 50%;
     }
   }
 
+  p.double, h3.double {
+    padding: 1rem;
+    @include tablet {
+      padding: 3rem;
+    }
+    @include laptop {
+      padding: 4rem;
+    }
+  }
+
+
   .tight {
     max-width: 60rem;
-    @include desktop {
-      margin: 4rem 0;
-    }
   }
 
   .tighter {
     max-width: 20rem;
-    @include desktop {
-      margin: 4rem 0;
-    }
   }
 
   .shadow {
