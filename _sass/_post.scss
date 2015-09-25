@@ -92,6 +92,7 @@ article {
   overflow: hidden;
 
   > * {
+    display: block;
     margin: 0 auto 2rem;
     @include tablet {
       margin: 0 auto 3rem ;
@@ -173,7 +174,7 @@ article {
     min-height: 50%;
   }
 
-  video.tighter {
+  video.tightest {
     min-width: 20rem;
     text-align: center;
   }
@@ -214,8 +215,11 @@ article {
   .tight {
     max-width: 60rem;
   }
-
   .tighter {
+    max-width: 40rem;
+  }
+
+  .tightest {
     max-width: 20rem;
   }
 
