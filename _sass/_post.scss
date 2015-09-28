@@ -103,9 +103,6 @@ article {
     @include large {
       margin: 0 auto 10rem;
     }
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
 
   .no-space {

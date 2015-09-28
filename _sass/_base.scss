@@ -114,6 +114,24 @@ a {
 }
 
 
+// BUTTONS
+
+a.button {
+  display: inline-block;
+}
+
+button, .button {
+  padding: 1.5rem 2rem;
+  @extend .p;
+  font-family: $sans;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
 // CLEARFIX
 
 %clearfix {
