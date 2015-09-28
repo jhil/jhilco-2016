@@ -135,6 +135,10 @@
   }
 }
 
+.social-item {
+  display: inline-block;
+}
+
 .social-item-link {
   @include laptop {
     line-height: 1;
