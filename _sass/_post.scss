@@ -192,7 +192,6 @@ article {
     width: 100%;
     clear: none;
     @include laptop {
-      margin: 0;
       float: left;
       width: 50%;
     }
