@@ -92,8 +92,10 @@
 }
 
 .site-name {
-  line-height: 1;
   margin-bottom: 1rem;
+  @include laptop {
+    line-height: 1;
+  }
 }
 
 .social-list {
@@ -134,7 +136,9 @@
 }
 
 .social-item-link {
-  line-height: 1;
+  @include laptop {
+    line-height: 1;
+  }
 }
 
 
