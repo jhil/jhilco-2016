@@ -29,8 +29,6 @@
 
 .post-sitename {
   margin-bottom: 1rem;
-
-
   @include laptop {
     display: flex;
     margin-bottom: 0;
@@ -65,7 +63,6 @@
 }
 
 .post-scope {
-  margin-bottom: 1rem;
   @include laptop {
     margin-bottom: 0;
     flex: 50%;
@@ -110,6 +107,7 @@ article {
   }
 
   p {
+    letter-spacing: 0;
     clear: both;
     max-width: 60rem;
     display: block;

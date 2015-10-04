@@ -45,3 +45,18 @@ $large:             1921px;
     @content;
   }
 }
+
+
+// HELPER CLASSES
+
+.mobile-only {
+  @include tablet {
+    display: none;
+  }
+}
+
+.no-mobile {
+  @include mobile-only {
+    display: none;
+  }
+}
