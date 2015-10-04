@@ -25,12 +25,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 h1, .h1 {
   font-family: $serif;
-  font-size: 2rem;
+  font-size: 4rem;
   @include tablet {
-    font-size: 4rem;
+    font-size: 5rem;
+  }  
+  @include laptop {
+    font-size: 6rem;
   }  
   @include desktop {
-    font-size: 6rem;
+    font-size: 7rem;
   }  
   @include hd {
     font-size: 8rem;
