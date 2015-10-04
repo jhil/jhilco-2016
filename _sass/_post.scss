@@ -63,6 +63,7 @@
 }
 
 .post-scope {
+  margin-bottom: 1rem;
   @include laptop {
     margin-bottom: 0;
     flex: 50%;
