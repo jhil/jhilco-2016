@@ -110,7 +110,7 @@ article {
   p {
     letter-spacing: 0;
     clear: both;
-    max-width: 60rem;
+    @extend .tight;
     display: block;
     text-transform: none;
     font-size: 1rem;
