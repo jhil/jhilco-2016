@@ -49,15 +49,20 @@
   }
   @include laptop {
     flex: 66.66%;
-    font-size: 2.75vw;
+    font-size: 2.65vw;
   }
   @include desktop {
+    flex: 75%;
+    font-size: 2.875vw;
+  }
+  @include large {
     flex: 75%;
     font-size: 3vw;
   }
   color: $lighter-gray;
   a {
     color: $light-gray;
+    white-space: nowrap;
     &:hover {
       color: $gray;
     }
