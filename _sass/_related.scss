@@ -17,14 +17,14 @@
   @include desktop {
     padding: 4rem 1rem;
   }
-  transition: all .2s;
+  transition: all $duration-short;
   h2:after, h2:before {
     font-family: $sans;
     transform: translateY(-.25rem);
     font-weight: 600;
     font-size: 2rem;
     margin: 0 1rem;
-    transition: transform .6s ease;
+    transition: transform $duration-short ease;
     display: inline-block;
   }
   &:hover {

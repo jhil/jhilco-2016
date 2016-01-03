@@ -57,7 +57,7 @@ img {
 a {
   color: $link-color;
   text-decoration: none;
-  transition: color .18s;
+  transition: color $duration-short;
 }
 
 

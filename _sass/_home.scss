@@ -131,7 +131,7 @@
   }
   > svg path {
     fill: $light-gray;
-    transition: fill .18s;
+    transition: fill $duration-short;
   }
   &:hover {
     > svg path {
@@ -188,7 +188,7 @@ a.post-link:visited {
 }
 
 .post-thumbnail {
-  transition: all .3s ease;
+  transition: all $duration-short ease;
   img {
     border-radius: 3px;
   }
@@ -196,7 +196,6 @@ a.post-link:visited {
 
 .post-list-title {
   padding: 1rem 0;
-  @extend .p;
 }
 
 

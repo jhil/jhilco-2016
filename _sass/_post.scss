@@ -47,7 +47,7 @@
       border-radius: 50%;
       margin: -.5rem 1rem 0 0;
       float: left;
-      transition: line-height .2s ease, color .2s ease-in-out, background-position .2s ease;
+      transition: line-height $duration-short ease, color $duration-short ease-in-out, background-position $duration-short ease;
       position: relative;
       overflow: visible;
       z-index: 1000;
@@ -108,17 +108,8 @@ article {
   }
 
   p {
-    letter-spacing: 0;
     clear: both;
     @extend .tight;
-    display: block;
-    text-transform: none;
-    font-size: 1rem;
-    text-align: center;
-
-    @include tablet {
-      font-size: 1.75rem;
-    }
     font-weight: 300;
     text-align: left;
     a {
