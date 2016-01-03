@@ -1,8 +1,8 @@
 // TYPE
 
-@include font-face("Argent CF", 'argent/ArgentCF-Bold', 700);
 @include font-face("Argent CF", 'argent/ArgentCF-DemiBold', 600);
 @include font-face("Argent CF", 'argent/ArgentCF-Regular', 400);
+
 @include font-face("Manifold CF", 'manifold/ManifoldCF-DemiBold-webfont', 600);
 @include font-face("Manifold CF", 'manifold/ManifoldCF-Bold-webfont', 700);
 
@@ -38,17 +38,20 @@ h1, .h1 {
   @include desktop {
     font-size: 7rem;
   }  
-  @include hd {
+  @include large {
     font-size: 8rem;
   }
 }
 
 h2, .h2 {
   font-family: $serif;
-  font-size: 1.5rem;
   font-weight: 400;
+  font-size: 1.5rem;
+  @include tablet {
+    font-size: 2rem;
+  }
   @include desktop {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 

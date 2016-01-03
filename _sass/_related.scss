@@ -6,6 +6,7 @@
 }
 
 .related-item {
+  font-size: 2rem;
   color: $lighter-gray;
   flex: 50%;
   flex-grow: 1;
@@ -20,37 +21,34 @@
   transition: all $duration-short;
   h2:after, h2:before {
     font-family: $sans;
-    transform: translateY(-.25rem);
-    font-weight: 600;
-    font-size: 2rem;
-    margin: 0 1rem;
     transition: transform $duration-short ease;
     display: inline-block;
   }
   &:hover {
-    // background: $lighter-gray;
     color: $light-gray;
   }
 }
 
 .related-prev {
   h2:before {
-    content: "‹";
+    content: "-";
+    transform: translate(-.5rem);
   }
   &:hover {
     h2:before {
-      transform: translate(-.5rem, -.25rem);
+      transform: translate(-1rem);
     }
   }
 }
 
 .related-next {
   h2:after {
-    content: "›";
+    content: "-";
+    transform: translate(.5rem);
   }
   &:hover {
     h2:after {
-      transform: translate(.5rem, -.25rem);
+      transform: translate(1rem);
     }
   }
 }
