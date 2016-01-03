@@ -43,10 +43,6 @@
 
 .headline {
   display: block;
-  font-size: 1.25rem;
-  @include tablet {
-    font-size: 1.875rem;
-  }
   @include laptop {
     flex: 66.66%;
     font-size: 2.65vw;
@@ -59,9 +55,10 @@
     flex: 75%;
     font-size: 3vw;
   }
-  color: $lighter-gray;
+  color: $light-gray;
   a {
     color: $light-gray;
+    text-decoration: underline;
     white-space: nowrap;
     &:hover {
       color: $gray;

@@ -215,11 +215,5 @@ article {
     }
   }
 
-  .bg {
-    @extend .shadow;
-    background: $lightest-gray;
-    padding: 8rem;
-  }
-
 }
 

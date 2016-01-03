@@ -53,6 +53,9 @@ h2, .h2 {
   @include desktop {
     font-size: 2.5rem;
   }
+  @include large {
+    font-size: 3rem;
+  }
 }
 
 h3, .h3 {
