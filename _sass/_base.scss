@@ -57,7 +57,7 @@ img {
 a {
   color: $link-color;
   text-decoration: none;
-  transition: color .18s;
+  transition: color $duration-short;
 }
 
 
@@ -129,6 +129,10 @@ button, .button {
   border: 0;
   cursor: pointer;
   border-radius: 3px;
+  transition: opacity $duration-short;
+  &:hover {
+    opacity: .8;
+  }
 }
 
 

@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    autoprefixer-rails (6.2.3)
+      execjs
+      json
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    colorator (0.1)
+    execjs (2.6.0)
+    ffi (1.9.9)
+    hitimes (1.2.2)
+    jekyll (3.0.1)
+      colorator (~> 0.1)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.3)
+      liquid (~> 3.0)
+      mercenary (~> 0.3.3)
+      rouge (~> 1.7)
+      safe_yaml (~> 1.0)
+    jekyll-sass-converter (1.3.0)
+      sass (~> 3.2)
+    jekyll-watch (1.2.1)
+      listen (~> 2.7)
+    json (1.8.3)
+    kramdown (1.7.0)
+    liquid (3.0.3)
+    listen (2.10.1)
+      celluloid (~> 0.16.0)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    mercenary (0.3.5)
+    octopress-autoprefixer (2.0.0)
+      autoprefixer-rails
+      jekyll (~> 3.0)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rouge (1.9.0)
+    safe_yaml (1.0.4)
+    sass (3.4.17)
+    timers (4.0.1)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  octopress-autoprefixer

@@ -1,6 +1,8 @@
 // TYPE
 
-@include font-face("Argent CF", 'argent/ArgentCF-Bold', 700);
+@include font-face("Argent CF", 'argent/ArgentCF-DemiBold', 600);
+@include font-face("Argent CF", 'argent/ArgentCF-Regular', 400);
+
 @include font-face("Manifold CF", 'manifold/ManifoldCF-DemiBold-webfont', 600);
 @include font-face("Manifold CF", 'manifold/ManifoldCF-Bold-webfont', 700);
 
@@ -12,19 +14,21 @@ body, button {
   font-size: 100%;
   line-height: 1.5;
   font-weight: 400;
+  text-align: center;
   color: $text-color;
   -webkit-text-size-adjust: 100%;
 }
 
+
 // HEADINGS
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-weight: 700;
   margin-bottom: 1rem;
 }
 
 h1, .h1 {
   font-family: $serif;
+  font-weight: 600;
   font-size: 4rem;
   @include tablet {
     font-size: 5rem;
@@ -35,23 +39,29 @@ h1, .h1 {
   @include desktop {
     font-size: 7rem;
   }  
-  @include hd {
+  @include large {
     font-size: 8rem;
   }
 }
 
 h2, .h2 {
   font-family: $serif;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 2rem;
   @include tablet {
-    font-size: 1.75rem;
-  }  
+    font-size: 2.5rem;
+  }
   @include desktop {
     font-size: 3rem;
-  }  
+  }
+  @include large {
+    font-size: 4rem;
+  }
 }
 
 h3, .h3 {
+  font-family: $sans;
+  color: $gray;
   font-weight: 600;
   letter-spacing: 0;
   text-transform: none;
@@ -64,15 +74,27 @@ h3, .h3 {
   }  
   @include desktop {
     font-size: 3rem;
-  }  
+  }
+}
+
+h4, .h4 {
+  font-family: $sans;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 
 // PARAGRAPH
 
 p, .p {
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 1rem;
-  text-transform: uppercase;
+  font-family: $sans;
+  font-weight: 600;
+  line-height: 1.75;
+  clear: both;
+  display: block;
+  @include tablet {
+    font-size: 1.5rem;
+  }
 }
