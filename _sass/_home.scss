@@ -43,6 +43,7 @@
 
 .headline {
   display: block;
+  text-align: left;
   @include laptop {
     flex: 66.66%;
     font-size: 2.65vw;
@@ -55,13 +56,13 @@
     flex: 75%;
     font-size: 3vw;
   }
-  color: $light-gray;
+  color: $gray;
   a {
-    color: $light-gray;
+    color: $gray;
     text-decoration: underline;
     white-space: nowrap;
     &:hover {
-      color: $gray;
+      color: $black;
     }
   }
 }
@@ -127,12 +128,12 @@
     display: block;
   }
   > svg path {
-    fill: $light-gray;
+    fill: $gray;
     transition: fill $duration-short;
   }
   &:hover {
     > svg path {
-      fill: $gray;
+      fill: $black;
     }
   }
 }
@@ -193,22 +194,5 @@ a.post-link:visited {
 
 .post-list-title {
   padding: 1rem 0;
-}
-
-
-// ANIMATION
-
-.come-in {
-  transform: translateY(2rem);
-  animation: come-in 0.6s ease forwards;
-}
-
-.already-visible {
-  transform: translateY(0);
-  animation: none;
-}
-
-@keyframes come-in {
-  to { transform: translateY(0); }
 }
 

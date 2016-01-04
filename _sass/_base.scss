@@ -129,6 +129,10 @@ button, .button {
   border: 0;
   cursor: pointer;
   border-radius: 3px;
+  transition: opacity $duration-short;
+  &:hover {
+    opacity: .8;
+  }
 }
 
 

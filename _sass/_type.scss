@@ -14,6 +14,7 @@ body, button {
   font-size: 100%;
   line-height: 1.5;
   font-weight: 400;
+  text-align: center;
   color: $text-color;
   -webkit-text-size-adjust: 100%;
 }
@@ -46,20 +47,21 @@ h1, .h1 {
 h2, .h2 {
   font-family: $serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   @include tablet {
-    font-size: 2rem;
-  }
-  @include desktop {
     font-size: 2.5rem;
   }
-  @include large {
+  @include desktop {
     font-size: 3rem;
+  }
+  @include large {
+    font-size: 4rem;
   }
 }
 
 h3, .h3 {
   font-family: $sans;
+  color: $gray;
   font-weight: 600;
   letter-spacing: 0;
   text-transform: none;
@@ -88,10 +90,11 @@ h4, .h4 {
 
 p, .p {
   font-family: $sans;
+  font-weight: 600;
+  line-height: 1.75;
   clear: both;
   display: block;
-  font-size: 1rem;
   @include tablet {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
