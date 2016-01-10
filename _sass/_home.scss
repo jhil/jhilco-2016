@@ -43,8 +43,8 @@
 
 .headline {
   display: block;
-  text-align: left;
   @include laptop {
+    text-align: left;
     flex: 66.66%;
     font-size: 2.65vw;
   }
@@ -59,8 +59,10 @@
   color: $gray;
   a {
     color: $gray;
-    text-decoration: underline;
     white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    text-decoration: underline;
     &:hover {
       color: $black;
     }

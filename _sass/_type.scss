@@ -47,7 +47,7 @@ h1, .h1 {
 h2, .h2 {
   font-family: $serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   @include tablet {
     font-size: 2.5rem;
   }
@@ -63,9 +63,8 @@ h3, .h3 {
   font-family: $sans;
   color: $gray;
   font-weight: 600;
-  letter-spacing: 0;
-  text-transform: none;
   font-size: 1.5rem;
+  line-height: 1.75;
   @include tablet {
     font-size: 2rem;
   }

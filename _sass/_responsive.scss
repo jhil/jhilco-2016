@@ -16,6 +16,12 @@ $large:             1921px;
     }
 }
 
+@mixin mobile-tablet-only {
+    @media screen and (max-width: $laptop) {
+      @content;
+    }
+}
+
 @mixin tablet {
   @include media($tablet) {
     @content;
@@ -55,8 +61,20 @@ $large:             1921px;
   }
 }
 
+.mobile-tablet-only {
+  @include laptop {
+    display: none;
+  }
+}
+
 .no-mobile {
   @include mobile-only {
+    display: none;
+  }
+}
+
+.no-mobile-tablet {
+  @include mobile-tablet-only {
     display: none;
   }
 }
