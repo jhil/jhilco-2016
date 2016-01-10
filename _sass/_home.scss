@@ -108,24 +108,15 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 16.5rem;
-  max-width: 100%;
-  @include laptop {
-    width: 11.5rem;
+  width: 12.5rem;
     max-width: 100%;
-  }
 }
 
 .icon {
   display: block;
   line-height: 1;
-  width: 2.5rem;
-  padding: .5rem;
-  @include laptop {
-    width: 1.5rem;
-    padding: .25rem;
-
-  }
+  width: 1.5rem;
+  padding: .25rem;
   svg {
     display: block;
   }

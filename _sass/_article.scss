@@ -6,7 +6,7 @@ article {
 
 // VERTICAL RHYTHM
 
-> * {
+> *, .button {
   display: block;
   margin: 0 auto 2rem;
   @include tablet {

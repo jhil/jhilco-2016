@@ -116,20 +116,20 @@ a {
 
 // BUTTONS
 
-a.button {
-  display: inline-block;
-}
-
 button, .button {
-  padding: 1.5rem 2rem;
-  @extend .p;
-  font-family: $sans;
+  @extend .article-wrapper;
+  padding: 2rem;
+  width: 100%;
+  @extend .h4;
   color: white;
   outline: 0;
   border: 0;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 4px;
   transition: opacity $duration-short;
+  &:after {
+    content: " →";
+  }
   &:hover {
     opacity: .8;
   }
