@@ -125,7 +125,7 @@ button, .button {
   outline: 0;
   border: 0;
   cursor: pointer;
-  border-radius: .5rem;
+  border-radius: .375rem;
   transition: opacity $duration-short;
   &:after {
     content: " →";
