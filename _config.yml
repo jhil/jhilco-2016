@@ -25,3 +25,5 @@ markdown: kramdown
 
 gems:
   - octopress-autoprefixer
+  - jekyll-auto-image
+  
